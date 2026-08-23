@@ -46,7 +46,7 @@ export default function TopFeatureBar() {
           {stats.map((stat) => (
             <div key={stat.label} className="transition-all duration-300">
               <AnimatedStat {...stat} />
-              <span className="mt-1 block text-sm font-medium text-slate-700">{stat.label}</span>
+              <span className="mt-1 block text-sm font-medium text-stone-700">{stat.label}</span>
             </div>
           ))}
         </div>
@@ -57,16 +57,16 @@ export default function TopFeatureBar() {
             return (
               <div
                 key={index}
-                className="bg-white/90 border border-black/10 rounded-xl p-3.5 sm:p-4 flex items-center gap-3.5 hover:border-orange-500/40 transition-all duration-300 group"
+                className="bg-white/90 border border-black/10 rounded-xl p-3.5 sm:p-4 flex items-center gap-3.5 hover:border-red-500/40 transition-all duration-300 group"
               >
-                <div className="p-2.5 rounded-lg bg-orange-500/10 border border-orange-500/20 text-orange-400 group-hover:scale-110 transition-transform shrink-0">
+                <div className="p-2.5 rounded-lg bg-red-500/10 border border-red-500/20 text-red-400 group-hover:scale-110 transition-transform shrink-0">
                   <Icon className="w-5 h-5" strokeWidth={2} />
                 </div>
                 <div className="min-w-0">
                   <p className="text-xs sm:text-sm font-bold text-black leading-tight truncate">
                     {item.title}
                   </p>
-                  <p className="text-[11px] text-slate-600 truncate mt-0.5">{item.desc}</p>
+                  <p className="text-[11px] text-stone-600 truncate mt-0.5">{item.desc}</p>
                 </div>
               </div>
             );

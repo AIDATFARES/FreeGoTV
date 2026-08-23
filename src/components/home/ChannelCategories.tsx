@@ -56,7 +56,7 @@ export default function ChannelCategories() {
                     <Icon className="w-8 h-8 text-[#FF6B00]" strokeWidth={2} />
                   </div>
                   <h3 className="text-xl font-bold text-white mb-4">{feature.title}</h3>
-                  <p className="text-orange-50 text-[15px] leading-relaxed max-w-[280px] mx-auto font-medium">
+                  <p className="text-red-50 text-[15px] leading-relaxed max-w-[280px] mx-auto font-medium">
                     {feature.desc}
                   </p>
                 </div>

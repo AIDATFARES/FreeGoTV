@@ -28,7 +28,7 @@ export default function MovieStrips() {
           href="/channels"
           className="inline-flex items-center justify-center px-8 py-3 rounded-full border border-[#FF6B00] text-black text-sm md:text-base font-medium bg-black/20 hover:bg-[#FF6B00]/10 transition-colors duration-300 gap-2"
         >
-          View IPTV Fiesta Channel List <span aria-hidden="true">&rarr;</span>
+          View 4K IPTV USA Channel List <span aria-hidden="true">&rarr;</span>
         </Link>
       </div>
 

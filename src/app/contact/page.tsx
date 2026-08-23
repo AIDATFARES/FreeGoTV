@@ -6,12 +6,12 @@ export default function Contact() {
   return (
     <main className="flex-grow pt-32 pb-xl px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto w-full relative z-10">
       <div className="mx-auto mb-14 max-w-3xl text-center">
-        <span className="inline-flex rounded-full border border-orange-400/35 bg-orange-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-orange-300">Contact Support</span>
+        <span className="inline-flex rounded-full border border-red-400/35 bg-red-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-red-300">Contact Support</span>
         <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
           <span className="block text-black">Get in Touch with</span>
           <span className="mt-1 block text-[#FF6B00]">Our Support Team.</span>
         </h1>
-        <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-slate-600">
+        <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-stone-600">
           We&apos;re here to help you get the best streaming experience. Send us a message and we&apos;ll get back to you quickly.
         </p>
       </div>
@@ -27,23 +27,23 @@ export default function Contact() {
             <p className="font-body-sm text-body-sm text-on-surface-variant mb-md">For general inquiries and support.</p>
             <a
               className="text-primary font-medium hover:text-primary-fixed transition-colors"
-              href="mailto:support@fiestaiptv.shop"
+              href="mailto:support@4kiptvusa.shop"
             >
-              support@fiestaiptv.shop
+              support@4kiptvusa.shop
             </a>
           </div>
 
           <div className="glass-panel rounded-xl p-lg flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full bg-emerald-500/20 flex items-center justify-center mb-md">
-              <MessageCircle className="text-emerald-400 w-8 h-8" />
+            <div className="w-16 h-16 rounded-full bg-red-500/20 flex items-center justify-center mb-md">
+              <MessageCircle className="text-red-400 w-8 h-8" />
             </div>
             <h3 className="font-title-md text-title-md text-on-surface mb-xs">WhatsApp Support</h3>
             <p className="font-body-sm text-body-sm text-on-surface-variant mb-md">
               Fastest way to reach us for technical issues.
             </p>
             <a
-              className="text-emerald-400 font-medium hover:text-emerald-300 transition-colors flex items-center gap-xs"
-              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20IPTV Fiesta."
+              className="text-red-400 font-medium hover:text-red-300 transition-colors flex items-center gap-xs"
+              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%204K IPTV USA."
               target="_blank"
               rel="noreferrer"
             >

@@ -9,7 +9,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <img
           src="/hero-family.webp"
-          alt="Family watching IPTV Fiesta"
+          alt="Family watching 4K IPTV USA"
           fetchPriority="high"
           className="absolute inset-0 w-full h-full object-cover opacity-80"
         />
@@ -31,7 +31,7 @@ export default function HeroSection() {
         {/* Headline */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] font-black tracking-tight leading-[1] text-white uppercase drop-shadow-2xl mt-4">
           BEST <span className="text-[#FF6B00]">IPTV</span> STREAMING –<br />
-          IPTV FIESTA
+          4K IPTV USA
         </h1>
 
         {/* Subtitle */}
@@ -42,7 +42,7 @@ export default function HeroSection() {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-5 mt-8 justify-center w-full sm:w-auto">
           <a
-            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20fiestaiptv%20IPTV."
+            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%204kiptvusa%20IPTV."
             target="_blank"
             rel="noreferrer"
             className="py-4 px-8 text-sm sm:text-base font-bold text-black bg-[#FF6B00] hover:bg-[#E66000] transition-all duration-300 flex items-center justify-center tracking-wider hover:scale-105"
