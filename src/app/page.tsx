@@ -45,7 +45,7 @@ export default function Home() {
       {/* Channel & Installation Quick Links */}
       <div className="w-full bg-white py-6 px-4 text-center border-t border-black/5 relative z-20">
         <p className="text-center text-sm md:text-base text-stone-600 max-w-3xl mx-auto">
-          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#FF6B00] hover:text-[#f44336]" href="/channels">4K IPTV USA Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#FF6B00] hover:text-[#f44336]" href="/installation">4K IPTV USA Installation Guide</Link> for a quick start.
+          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#FF6B00] hover:text-[#f44336]" href="/channels">FreeGoTV Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#FF6B00] hover:text-[#f44336]" href="/installation">FreeGoTV Installation Guide</Link> for a quick start.
         </p>
       </div>
 

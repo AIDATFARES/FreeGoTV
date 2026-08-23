@@ -25,7 +25,7 @@ type Plan = {
 const plans: Plan[] = [
   {
     id: "3-months",
-    name: "4K IPTV USA Basic",
+    name: "FreeGoTV Basic",
     subtitle: "Perfect for trying out our premium service.",
     price: 35,
     duration: "/ 3 Months",
@@ -41,7 +41,7 @@ const plans: Plan[] = [
   },
   {
     id: "12-months",
-    name: "4K IPTV USA Ultimate",
+    name: "FreeGoTV Ultimate",
     subtitle: "The ultimate entertainment experience for a full year.",
     price: 69.99,
     oldPrice: 80,
@@ -59,7 +59,7 @@ const plans: Plan[] = [
   },
   {
     id: "6-months",
-    name: "4K IPTV USA Pro",
+    name: "FreeGoTV Pro",
     subtitle: "A solid choice for half a year of uninterrupted joy.",
     price: 49.99,
     duration: "/ 6 Months",
@@ -79,14 +79,14 @@ const includedFeatures = [
   { icon: Tv, title: "+50,000 Channels", text: "Explore live channels from around the world, including sports, news and entertainment." },
   { icon: MonitorSmartphone, title: "200,000+ VODs", text: "Enjoy +120,000 Films & Series and a massive, regularly refreshed video-on-demand library." },
   { icon: Zap, title: "Anti-freeze Technology", text: "Optimized streaming technology helps deliver a smoother experience at busy times." },
-  { icon: Headphones, title: "24/7 Support", text: "The 4K IPTV USA support team is here to help with setup and streaming questions." },
-  { icon: Sparkles, title: "Fast Setup", text: "Your 4K IPTV USA details are sent after payment so you can start setting up quickly." },
+  { icon: Headphones, title: "24/7 Support", text: "The FreeGoTV support team is here to help with setup and streaming questions." },
+  { icon: Sparkles, title: "Fast Setup", text: "Your FreeGoTV details are sent after payment so you can start setting up quickly." },
   { icon: CreditCard, title: "TV Guide (EPG)", text: "Browse your channel schedule more easily with an electronic programme guide." },
 ];
 
 const billingQuestions = [
-  { question: "1. Which payment methods can I use?", answer: <>Available payment options are shown when you place your order. <Link className="font-semibold text-red-500 hover:text-red-600 transition-colors" href="/contact">Contact 4K IPTV USA support</Link> if you need help before purchasing.</> },
-  { question: "2. Is my payment protected?", answer: "Please use the official 4K IPTV USA payment process and never share payment details through an unverified link or message." },
+  { question: "1. Which payment methods can I use?", answer: <>Available payment options are shown when you place your order. <Link className="font-semibold text-red-500 hover:text-red-600 transition-colors" href="/contact">Contact FreeGoTV support</Link> if you need help before purchasing.</> },
+  { question: "2. Is my payment protected?", answer: "Please use the official FreeGoTV payment process and never share payment details through an unverified link or message." },
   { question: "3. Will my subscription renew automatically?", answer: <>Renewal details are provided when you order. If you have any questions about your subscription period or renewal, <Link className="font-semibold text-red-500 hover:text-red-600 transition-colors" href="/contact">contact support</Link> before your plan expires.</> },
   { question: "4. Can I change my plan or number of connections?", answer: <>Yes. <Link className="font-semibold text-red-500 hover:text-red-600 transition-colors" href="/contact">Contact the support team</Link> with your order email and the plan or connection change you need, and they will advise on the available options.</> },
 ];
@@ -106,12 +106,12 @@ export default function PricingPageContent() {
     <section className="relative overflow-hidden bg-[#f8fafc] py-16 sm:py-20 lg:py-24">
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
         <header className="mx-auto max-w-3xl text-center mb-16">
-          <span className="inline-flex rounded-full border border-red-500/30 bg-red-500/10 px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-red-600">4K IPTV USA</span>
+          <span className="inline-flex rounded-full border border-red-500/30 bg-red-500/10 px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-red-600">FreeGoTV</span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
             <span className="block text-black uppercase">Choose Your Exclusive</span>
             <span className="mt-1 block text-red-500 uppercase">Subscription Plans.</span>
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-stone-600 sm:text-base">Choose the 4K IPTV USA plan that fits you, with secure checkout and helpful 24/7 support.</p>
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-stone-600 sm:text-base">Choose the FreeGoTV plan that fits you, with secure checkout and helpful 24/7 support.</p>
           <p className="mx-auto mt-2 max-w-2xl text-sm leading-6 text-stone-500">Need help getting started? Visit our <Link className="font-semibold text-red-500 hover:text-red-600" href="/installation">installation guide</Link> or browse the <Link className="font-semibold text-red-500 hover:text-red-600" href="/channels">channel list</Link> before you order.</p>
         </header>
 
@@ -252,7 +252,7 @@ export default function PricingPageContent() {
 
         <div className="mt-16 flex items-center justify-center gap-2 text-sm text-stone-600">
           <ShieldCheck className="h-5 w-5 text-red-500" />
-          <span className="font-semibold text-black">Secure ordering</span> and friendly 4K IPTV USA support.
+          <span className="font-semibold text-black">Secure ordering</span> and friendly FreeGoTV support.
         </div>
       </div>
     </section>

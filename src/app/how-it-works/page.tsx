@@ -4,9 +4,9 @@ import { ArrowRight, Check, MonitorSmartphone, ShieldCheck, Zap, Globe2, Headpho
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How It Works - 4K IPTV USA | Easy 3-Step Setup Guide",
+  title: "How It Works - FreeGoTV | Easy 3-Step Setup Guide",
   description:
-    "Learn how to get started with 4K IPTV USA in 3 easy steps. Place your order, install on any device, and start streaming 50,000+ channels instantly.",
+    "Learn how to get started with FreeGoTV in 3 easy steps. Place your order, install on any device, and start streaming 50,000+ channels instantly.",
   alternates: {
     canonical: "/how-it-works",
   },
@@ -113,7 +113,7 @@ export default function HowItWorksPage() {
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05]">
             <span className="text-black">How Does It Work?</span>
             <br />
-            <span className="text-[#FF6B00]">4K IPTV USA</span>
+            <span className="text-[#FF6B00]">FreeGoTV</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-stone-600 leading-relaxed">
             Get your{" "}
@@ -190,10 +190,10 @@ export default function HowItWorksPage() {
         <div className="mx-auto max-w-[1200px] px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#FF6B00] tracking-tight italic">
-              Getting Started with 4K IPTV USA Is Easy
+              Getting Started with FreeGoTV Is Easy
             </h2>
             <p className="text-stone-600 text-sm sm:text-base mt-4 leading-relaxed">
-              Enjoy high quality IPTV streaming with 4K IPTV USA. Watch{" "}
+              Enjoy high quality IPTV streaming with FreeGoTV. Watch{" "}
               <Link href="/channels" className="text-[#FF6B00] font-semibold hover:text-red-400 transition-colors">
                 live TV channels
               </Link>
@@ -224,7 +224,7 @@ export default function HowItWorksPage() {
                   <Link href="/pricing" className="text-[#FF6B00] font-semibold hover:text-red-400 transition-colors">
                     IPTV subscription
                   </Link>{" "}
-                  from 4K IPTV USA. Choose from 1, 3, 6 or 12 months packages and experience continuous entertainment with full access to our{" "}
+                  from FreeGoTV. Choose from 1, 3, 6 or 12 months packages and experience continuous entertainment with full access to our{" "}
                   <Link href="/channels" className="text-[#FF6B00] font-semibold hover:text-red-400 transition-colors">
                     streaming library
                   </Link>
@@ -282,7 +282,7 @@ export default function HowItWorksPage() {
                   </Link>
                 </h3>
                 <p className="text-stone-600 text-sm sm:text-base leading-relaxed">
-                  With 4K IPTV USA you get access to an interactive TV guide (EPG), Live TV, and replay options. Read our{" "}
+                  With FreeGoTV you get access to an interactive TV guide (EPG), Live TV, and replay options. Read our{" "}
                   <Link href="/installation" className="text-[#FF6B00] font-semibold hover:text-red-400 transition-colors">
                     IPTV setup guide
                   </Link>{" "}
@@ -306,7 +306,7 @@ export default function HowItWorksPage() {
               Getting Started Is <span className="text-[#FF6B00]">Easy</span>
             </h2>
             <p className="mt-4 text-stone-600 max-w-2xl mx-auto">
-              Enjoy high quality IPTV streaming with 4K IPTV USA. Watch{" "}
+              Enjoy high quality IPTV streaming with FreeGoTV. Watch{" "}
               <Link href="/channels" className="text-[#FF6B00] font-semibold hover:text-red-400 transition-colors">
                 live TV channels
               </Link>
@@ -344,7 +344,7 @@ export default function HowItWorksPage() {
       <section className="py-16 bg-white">
         <div className="mx-auto max-w-[1100px] px-6">
           <h2 className="text-center text-2xl sm:text-3xl font-black text-black mb-10 uppercase">
-            Why Choose <span className="text-[#FF6B00]">4K IPTV USA</span>?
+            Why Choose <span className="text-[#FF6B00]">FreeGoTV</span>?
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
             {benefits.map((benefit, i) => {
@@ -374,7 +374,7 @@ export default function HowItWorksPage() {
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%204kiptvusa%20IPTV."
+              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV."
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-white text-[#FF6B00] font-bold px-8 py-3.5 rounded-md shadow-lg hover:bg-red-50 transition-all"

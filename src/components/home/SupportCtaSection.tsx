@@ -24,7 +24,7 @@ export default function SupportCtaSection() {
         <div className="flex shrink-0 flex-col gap-2.5 sm:w-40">
           <a
             className="inline-flex items-center justify-center gap-2 rounded-full bg-red-600 px-4 py-2.5 text-[10px] font-extrabold uppercase tracking-wide text-black shadow-[0_0_20px_rgba(16,185,129,0.4)] transition-all hover:bg-red-500 hover:scale-105"
-            href="https://wa.me/213552069874?text=Hello%2C%20I%20have%20a%20question%20about%204kiptvusa%20IPTV."
+            href="https://wa.me/213552069874?text=Hello%2C%20I%20have%20a%20question%20about%20freegotv%20IPTV."
             rel="noreferrer"
             target="_blank"
           >
@@ -33,7 +33,7 @@ export default function SupportCtaSection() {
           </a>
           <a
             className="inline-flex items-center justify-center gap-2 rounded-full border border-black/15 px-4 py-2.5 text-[10px] font-extrabold uppercase tracking-wide text-black transition-all hover:border-black/30 hover:bg-black/[0.04] hover:scale-105"
-            href="mailto:support@4kiptvusa.shop"
+            href="mailto:support@freegotv.shop"
           >
             <Mail className="h-3.5 w-3.5" />
             Send email

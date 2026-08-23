@@ -27,9 +27,9 @@ export default function Contact() {
             <p className="font-body-sm text-body-sm text-on-surface-variant mb-md">For general inquiries and support.</p>
             <a
               className="text-primary font-medium hover:text-primary-fixed transition-colors"
-              href="mailto:support@4kiptvusa.shop"
+              href="mailto:support@freegotv.shop"
             >
-              support@4kiptvusa.shop
+              support@freegotv.shop
             </a>
           </div>
 
@@ -43,7 +43,7 @@ export default function Contact() {
             </p>
             <a
               className="text-red-400 font-medium hover:text-red-300 transition-colors flex items-center gap-xs"
-              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%204K IPTV USA."
+              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20FreeGoTV."
               target="_blank"
               rel="noreferrer"
             >

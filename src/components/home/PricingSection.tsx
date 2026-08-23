@@ -24,7 +24,7 @@ type Plan = {
 const plans: Plan[] = [
   {
     id: "3-months",
-    name: "4K IPTV USA Basic",
+    name: "FreeGoTV Basic",
     subtitle: "Perfect for trying out our premium service.",
     price: 35,
     duration: "/ 3 Months",
@@ -40,7 +40,7 @@ const plans: Plan[] = [
   },
   {
     id: "12-months",
-    name: "4K IPTV USA Ultimate",
+    name: "FreeGoTV Ultimate",
     subtitle: "The ultimate entertainment experience for a full year.",
     price: 69.99,
     oldPrice: 80,
@@ -58,7 +58,7 @@ const plans: Plan[] = [
   },
   {
     id: "6-months",
-    name: "4K IPTV USA Pro",
+    name: "FreeGoTV Pro",
     subtitle: "A solid choice for half a year of uninterrupted joy.",
     price: 49.99,
     duration: "/ 6 Months",

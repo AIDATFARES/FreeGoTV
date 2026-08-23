@@ -20,8 +20,8 @@ export default function Installation() {
           <span className="block text-black">How to Setup IPTV Service</span>
           <span className="mt-1 block text-[#FF6B00]">On Any Device Quickly.</span>
         </h1>
-        <p className="mx-auto mt-5 max-w-2xl text-base leading-6 text-stone-600">Comprehensive step-by-step instructions to configure 4K IPTV USA on all your devices.</p>
-        <p className="mx-auto mt-2 max-w-2xl text-base leading-6 text-stone-600">4K IPTV USA works on Smart TVs, Firestick, Android, iOS, MAG, and more. New to 4K IPTV USA? Check <Link className="font-semibold text-red-400 hover:text-red-300" href="/pricing">4K IPTV USA Pricing</Link>, or browse the <Link className="font-semibold text-red-400 hover:text-red-300" href="/channels">4K IPTV USA Channel List</Link> before you start.</p>
+        <p className="mx-auto mt-5 max-w-2xl text-base leading-6 text-stone-600">Comprehensive step-by-step instructions to configure FreeGoTV on all your devices.</p>
+        <p className="mx-auto mt-2 max-w-2xl text-base leading-6 text-stone-600">FreeGoTV works on Smart TVs, Firestick, Android, iOS, MAG, and more. New to FreeGoTV? Check <Link className="font-semibold text-red-400 hover:text-red-300" href="/pricing">FreeGoTV Pricing</Link>, or browse the <Link className="font-semibold text-red-400 hover:text-red-300" href="/channels">FreeGoTV Channel List</Link> before you start.</p>
         <div className="mt-10 flex flex-wrap justify-center gap-x-9 gap-y-4 text-sm font-semibold text-stone-700">
           <span className="inline-flex items-center gap-2"><Monitor className="h-4 w-4 text-red-400" />15+ Devices Supported</span>
           <span className="inline-flex items-center gap-2"><Clock3 className="h-4 w-4 text-red-300" />5–15 Minutes Setup</span>
@@ -33,11 +33,11 @@ export default function Installation() {
         <div className="mx-auto max-w-[1000px] px-5">
           <header className="mx-auto mb-10 max-w-[560px] text-center">
             <h2 className="text-3xl font-extrabold tracking-tight text-black">Quick Start Guide</h2>
-            <p className="mt-3 text-stone-600">Get started with 4K IPTV USA quickly and easily in three straightforward steps.</p>
+            <p className="mt-3 text-stone-600">Get started with FreeGoTV quickly and easily in three straightforward steps.</p>
           </header>
           <div className="grid gap-8 md:grid-cols-3">
             <QuickStartCard icon={Download} step="1" title="Download App">Download and install a suitable IPTV player app on your device from the app store or the official site.</QuickStartCard>
-            <QuickStartCard icon={Link2} step="2" title="Add M3U URL">Input your 4K IPTV USA M3U playlist URL and EPG URL, which are included in your welcome email.</QuickStartCard>
+            <QuickStartCard icon={Link2} step="2" title="Add M3U URL">Input your FreeGoTV M3U playlist URL and EPG URL, which are included in your welcome email.</QuickStartCard>
             <QuickStartCard icon={PlayCircle} step="3" title="Start Streaming">Gain immediate access to live channels, movies and TV shows in stunning 4K quality.</QuickStartCard>
           </div>
 

@@ -22,23 +22,23 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "4K IPTV USA - Premium 4K Streaming Services",
+  title: "FreeGoTV - Premium 4K Streaming Services",
   description: "Ultimate 4K IPTV Experience. Access +50,000 Channels, +120,000 Films & Series, and 200,000+ VODs.",
-  metadataBase: new URL("https://www.4kiptvusa.shop"),
+  metadataBase: new URL("https://www.freegotv.shop"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "4K IPTV USA - Premium 4K Streaming",
+    title: "FreeGoTV - Premium 4K Streaming",
     description: "Ultimate 4K IPTV Experience. Access +50,000 Channels, +120,000 Films & Series, and 200,000+ VODs.",
-    url: "https://www.4kiptvusa.shop",
-    siteName: "4K IPTV USA",
+    url: "https://www.freegotv.shop",
+    siteName: "FreeGoTV",
     images: [
       {
         url: "/og-image-v2.webp",
         width: 1200,
         height: 630,
-        alt: "4K IPTV USA Premium IPTV Service",
+        alt: "FreeGoTV Premium IPTV Service",
       },
     ],
     locale: "en_US",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "4K IPTV USA - Premium 4K Streaming",
+    title: "FreeGoTV - Premium 4K Streaming",
     description: "Ultimate 4K IPTV Experience. Access +50,000 Channels, +120,000 Films & Series, and 200,000+ VODs.",
     images: ["/og-image-v2.webp"],
   },
@@ -73,7 +73,7 @@ export default function RootLayout({
             <div className="col-span-2 sm:col-span-4 xl:col-span-1 min-w-0 max-w-[310px] space-y-4">
               <Link href="/"><BrandLogo /></Link>
               <p className="max-w-[285px] whitespace-normal break-normal text-sm leading-6 text-stone-700">
-                © 2024 4kiptvusa. Premium 4K IPTV Streaming Services. All rights reserved.
+                © 2024 freegotv. Premium 4K IPTV Streaming Services. All rights reserved.
               </p>
               <a href="https://wa.me/213552069874" target="_blank" rel="noreferrer" className="flex max-w-[270px] items-center gap-3 rounded-2xl border border-red-500/30 bg-red-500/[0.08] p-3.5 transition-colors hover:bg-red-500/[0.15] group">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-red-500 text-black shadow-lg shadow-red-500/20 transition-transform group-hover:scale-105">
@@ -106,7 +106,7 @@ export default function RootLayout({
               <ul className="space-y-3 font-body-sm text-sm">
                 <li><Link prefetch={false} className="text-stone-600 transition-colors hover:text-black" href="/pricing">Get Started</Link></li>
                 <li><a className="text-stone-600 transition-colors hover:text-black" href="https://wa.me/213552069874" target="_blank" rel="noreferrer">WhatsApp</a></li>
-                <li><a className="text-stone-600 transition-colors hover:text-black" href="mailto:support@4kiptvusa.shop">Email</a></li>
+                <li><a className="text-stone-600 transition-colors hover:text-black" href="mailto:support@freegotv.shop">Email</a></li>
                 <li><Link prefetch={false} className="text-stone-600 transition-colors hover:text-black" href="/channels">Channels</Link></li>
                 <li><Link prefetch={false} className="text-stone-600 transition-colors hover:text-black" href="/installation">Setup Guide</Link></li>
               </ul>

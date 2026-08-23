@@ -42,7 +42,7 @@ export default function Navbar() {
             <span key={i} className="flex items-center gap-2 px-8 text-xs sm:text-sm font-semibold tracking-wide whitespace-nowrap">
               🎁 Special Offer: We offer a <span className="font-extrabold underline uppercase tracking-widest">Free Trial</span> to test our service! 
               <a 
-                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%204kiptvusa%20IPTV." 
+                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV." 
                 target="_blank" 
                 rel="noreferrer"
                 className="inline-block ml-2 bg-black text-white px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold hover:bg-white hover:text-black transition-colors shadow-sm"
@@ -85,7 +85,7 @@ export default function Navbar() {
         {/* RIGHT ACTIONS */}
         <div className="hidden lg:flex items-center gap-4 shrink-0 z-20">
           <a
-            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%204kiptvusa%20IPTV."
+            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV."
             target="_blank"
             rel="noreferrer"
             className="px-6 py-2.5 rounded-full text-sm font-bold text-black bg-[#FF6B00] hover:bg-[#E66000] transition-all duration-300 shadow-md hover:shadow-[0_0_20px_rgba(255,107,0,0.4)]"
@@ -117,7 +117,7 @@ export default function Navbar() {
           </nav>
           <div className="pt-4 border-t border-black/10 flex flex-col gap-3">
             <a
-              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%204kiptvusa%20IPTV."
+              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV."
               target="_blank"
               rel="noreferrer"
               className="w-full text-center py-3 rounded-full text-sm font-bold text-black bg-[#FF6B00] shadow-lg"

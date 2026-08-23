@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | 4K IPTV USA",
-  description: "Learn how 4K IPTV USA collects, uses, and protects personal information.",
+  title: "Privacy Policy | FreeGoTV",
+  description: "Learn how FreeGoTV collects, uses, and protects personal information.",
   alternates: {
     canonical: "/privacy-policy",
   },
@@ -91,7 +91,7 @@ export default function PrivacyPolicyPage() {
         </header>
 
         <div className="mt-10 space-y-10 text-base leading-7 text-on-surface-variant">
-          <p>Welcome to 4K IPTV USA. We are committed to protecting your personal information and respecting your privacy. If you have questions or concerns about this policy or our data practices, please <Link className="font-semibold text-red-400 hover:text-red-300" href="/contact">contact our support team</Link>.</p>
+          <p>Welcome to FreeGoTV. We are committed to protecting your personal information and respecting your privacy. If you have questions or concerns about this policy or our data practices, please <Link className="font-semibold text-red-400 hover:text-red-300" href="/contact">contact our support team</Link>.</p>
           {sections.map((section) => (
             <section key={section.title}>
               <h2 className="text-2xl font-bold text-black">{section.title}</h2>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { ChevronDown, CircleHelp, Clock3, CreditCard, HelpCircle, Mail, MessageCircle, MonitorPlay, Send, Settings2, UserRound } from "lucide-react";
 
-type Category = "About 4kiptvusa" | "Setup & streaming" | "Plans & access" | "Payments & support";
+type Category = "About freegotv" | "Setup & streaming" | "Plans & access" | "Payments & support";
 
 type FAQItem = {
   category: Category;
@@ -13,7 +13,7 @@ type FAQItem = {
 };
 
 const categories: { label: Category; icon: typeof CircleHelp }[] = [
-  { label: "About 4kiptvusa", icon: CircleHelp },
+  { label: "About freegotv", icon: CircleHelp },
   { label: "Setup & streaming", icon: Settings2 },
   { label: "Plans & access", icon: UserRound },
   { label: "Payments & support", icon: CreditCard },
@@ -21,73 +21,73 @@ const categories: { label: Category; icon: typeof CircleHelp }[] = [
 
 const faqs: FAQItem[] = [
   {
-    category: "About 4kiptvusa",
-    question: "1. What is 4K IPTV USA?",
+    category: "About freegotv",
+    question: "1. What is FreeGoTV?",
     answer: (
       <>
-        4K IPTV USA is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
+        FreeGoTV is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
         <Link href="/channels" className="text-red-500 font-semibold hover:text-red-400 transition-colors">live TV channels</Link> and{" "}
         <Link href="/pricing" className="text-red-500 font-semibold hover:text-red-400 transition-colors">IPTV subscription plans</Link>.
       </>
     ),
   },
   {
-    category: "About 4kiptvusa",
-    question: "2. Is 4K IPTV USA authorized?",
+    category: "About freegotv",
+    question: "2. Is FreeGoTV authorized?",
     answer: (
       <>
-        4K IPTV USA is intended to be used in accordance with applicable laws, local regulations, and our service terms. Please ensure that the content you access and the way you use the service are permitted in your location.
+        FreeGoTV is intended to be used in accordance with applicable laws, local regulations, and our service terms. Please ensure that the content you access and the way you use the service are permitted in your location.
       </>
     ),
   },
   {
-    category: "About 4kiptvusa",
-    question: "3. What channels and content are included with 4K IPTV USA?",
+    category: "About freegotv",
+    question: "3. What channels and content are included with FreeGoTV?",
     answer: (
       <>
-        4K IPTV USA includes a broad selection of live channels covering sports, news, and entertainment, along with a regularly updated on-demand library of movies and TV series. Check our <Link href="/channels" className="text-red-500 font-semibold hover:text-red-400 transition-colors">full channels catalog</Link>.
+        FreeGoTV includes a broad selection of live channels covering sports, news, and entertainment, along with a regularly updated on-demand library of movies and TV series. Check our <Link href="/channels" className="text-red-500 font-semibold hover:text-red-400 transition-colors">full channels catalog</Link>.
       </>
     ),
   },
   {
-    category: "About 4kiptvusa",
-    question: "4. Can I watch live sports and PPV events on 4K IPTV USA?",
+    category: "About freegotv",
+    question: "4. Can I watch live sports and PPV events on FreeGoTV?",
     answer: (
       <>
-        4K IPTV USA includes a range of live sports channels and events. Coverage can include football, NFL, NBA, UFC, and pay-per-view events. Explore our <Link href="/channels" className="text-red-500 font-semibold hover:text-red-400 transition-colors">live sports section</Link>.
+        FreeGoTV includes a range of live sports channels and events. Coverage can include football, NFL, NBA, UFC, and pay-per-view events. Explore our <Link href="/channels" className="text-red-500 font-semibold hover:text-red-400 transition-colors">live sports section</Link>.
       </>
     ),
   },
   {
-    category: "About 4kiptvusa",
+    category: "About freegotv",
     question: "5. Which devices can I use?",
     answer: (
       <>
-        4K IPTV USA works with compatible IPTV apps on Smart TVs, Android TV, Firestick, Apple TV, smartphones, tablets, and computers. Follow our <Link href="/installation" className="text-red-500 font-semibold hover:text-red-400 transition-colors">installation guides</Link> to get started.
+        FreeGoTV works with compatible IPTV apps on Smart TVs, Android TV, Firestick, Apple TV, smartphones, tablets, and computers. Follow our <Link href="/installation" className="text-red-500 font-semibold hover:text-red-400 transition-colors">installation guides</Link> to get started.
       </>
     ),
   },
   {
     category: "Setup & streaming",
-    question: "1. How do I install 4K IPTV USA on my device?",
+    question: "1. How do I install FreeGoTV on my device?",
     answer: (
       <>
-        Start by installing a compatible IPTV player on your device. Enter the 4K IPTV USA credentials from your email. View our step-by-step <Link href="/installation" className="text-red-500 font-semibold hover:text-red-400 transition-colors">installation guides</Link> for detailed instructions.
+        Start by installing a compatible IPTV player on your device. Enter the FreeGoTV credentials from your email. View our step-by-step <Link href="/installation" className="text-red-500 font-semibold hover:text-red-400 transition-colors">installation guides</Link> for detailed instructions.
       </>
     ),
   },
   {
     category: "Setup & streaming",
-    question: "2. Can I use 4K IPTV USA on a Smart TV?",
+    question: "2. Can I use FreeGoTV on a Smart TV?",
     answer: (
       <>
-        Yes, 4K IPTV USA can be used on Smart TVs including Samsung, LG, and Android TV models using compatible IPTV players like Tivimate or Smarters.
+        Yes, FreeGoTV can be used on Smart TVs including Samsung, LG, and Android TV models using compatible IPTV players like Tivimate or Smarters.
       </>
     ),
   },
   {
     category: "Setup & streaming",
-    question: "3. What internet speed do I need for smooth 4K IPTV USA streaming?",
+    question: "3. What internet speed do I need for smooth FreeGoTV streaming?",
     answer: (
       <>
         For reliable playback, allow at least 10 Mbps per stream for HD and 25 Mbps per stream for 4K. Ethernet or 5 GHz Wi-Fi is recommended.
@@ -96,7 +96,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Setup & streaming",
-    question: "4. Why is 4K IPTV USA buffering or freezing?",
+    question: "4. Why is FreeGoTV buffering or freezing?",
     answer: (
       <>
         Restart your IPTV app and router. If buffering persists, check your Wi-Fi signal or <Link href="/contact" className="text-red-500 font-semibold hover:text-red-400 transition-colors">contact support</Link> for quick assistance.
@@ -105,7 +105,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Setup & streaming",
-    question: "5. Do I need a VPN to use 4K IPTV USA?",
+    question: "5. Do I need a VPN to use FreeGoTV?",
     answer: (
       <>
         A VPN is not required but is recommended in some regions to ensure unrestricted access and added privacy. Contact our <Link href="/contact" className="text-red-500 font-semibold hover:text-red-400 transition-colors">support team</Link> for VPN setup recommendations.
@@ -114,7 +114,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Plans & access",
-    question: "1. Are there any hidden fees or contracts with 4K IPTV USA?",
+    question: "1. Are there any hidden fees or contracts with FreeGoTV?",
     answer: (
       <>
         No contracts and no hidden fees. Choose an <Link href="/pricing" className="text-red-500 font-semibold hover:text-red-400 transition-colors">IPTV subscription plan</Link> with transparent pricing and instant delivery.
@@ -123,7 +123,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Plans & access",
-    question: "2. Can I use 4K IPTV USA on multiple devices?",
+    question: "2. Can I use FreeGoTV on multiple devices?",
     answer: (
       <>
         Yes! We offer multi-device subscription plans. Select the 1, 2, or 3 device option on our <Link href="/pricing" className="text-red-500 font-semibold hover:text-red-400 transition-colors">pricing page</Link>.
@@ -132,7 +132,7 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Plans & access",
-    question: "3. What are 4K IPTV USA M3U and Xtream Codes details?",
+    question: "3. What are FreeGoTV M3U and Xtream Codes details?",
     answer: (
       <>
         Your welcome email includes both M3U playlist URLs and Xtream Codes credentials for fast setup in any IPTV app.
@@ -141,16 +141,16 @@ const faqs: FAQItem[] = [
   },
   {
     category: "Payments & support",
-    question: "1. Does 4K IPTV USA offer a free trial?",
+    question: "1. Does FreeGoTV offer a free trial?",
     answer: (
       <>
-        Yes, we offer a <a href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%204kiptvusa%20IPTV." target="_blank" rel="noreferrer" className="text-red-500 font-semibold hover:text-red-400 transition-colors">free trial</a> so you can test our service before subscribing.
+        Yes, we offer a <a href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV." target="_blank" rel="noreferrer" className="text-red-500 font-semibold hover:text-red-400 transition-colors">free trial</a> so you can test our service before subscribing.
       </>
     ),
   },
   {
     category: "Payments & support",
-    question: "2. Which payment methods does 4K IPTV USA accept?",
+    question: "2. Which payment methods does FreeGoTV accept?",
     answer: (
       <>
         We accept PayPal, Crypto (Bitcoin), Credit Cards, and Instant Bank Transfers. For help with payments, reach out to our <Link href="/contact" className="text-red-500 font-semibold hover:text-red-400 transition-colors">support team</Link>.
@@ -169,7 +169,7 @@ const faqs: FAQItem[] = [
 ];
 
 export default function FAQ() {
-  const [activeCategory, setActiveCategory] = useState<Category>("About 4kiptvusa");
+  const [activeCategory, setActiveCategory] = useState<Category>("About freegotv");
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const visibleFaqs = faqs.filter((faq) => faq.category === activeCategory);
 
@@ -183,7 +183,7 @@ export default function FAQ() {
     const email = String(formData.get("email") || "").trim();
     const subject = String(formData.get("subject") || "General support").trim();
     const message = String(formData.get("message") || "").trim();
-    const text = encodeURIComponent(`Hello 4K IPTV USA support,\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject}\n\n${message}`);
+    const text = encodeURIComponent(`Hello FreeGoTV support,\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject}\n\n${message}`);
     window.open(`https://wa.me/213552069874?text=${text}`, "_blank", "noopener,noreferrer");
   }
 
@@ -279,13 +279,13 @@ export default function FAQ() {
           </header>
           <div className="mt-10 grid gap-8 xl:grid-cols-[278px_minmax(0,1fr)] xl:gap-10">
             <div className="grid gap-3 sm:grid-cols-3 xl:grid-cols-1">
-              <a className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-black/10 bg-white p-5 text-center transition-colors hover:border-red-500/50" href="mailto:support@4kiptvusa.shop">
+              <a className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-black/10 bg-white p-5 text-center transition-colors hover:border-red-500/50" href="mailto:support@freegotv.shop">
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-red-500/20 text-red-400"><Mail className="h-5 w-5" /></span>
                 <span className="mt-4 block text-base font-bold text-black">Email Us</span>
                 <span className="mt-2 block text-xs leading-5 text-stone-600">For general inquiries and support.</span>
-                <span className="mt-3 block text-xs font-semibold text-red-400">support@4kiptvusa.shop</span>
+                <span className="mt-3 block text-xs font-semibold text-red-400">support@freegotv.shop</span>
               </a>
-              <a className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-black/10 bg-white p-5 text-center transition-colors hover:border-red-500/50" href="https://wa.me/213552069874?text=Hello%204kiptvusa%20IPTV%20support%2C%20I%20need%20help." rel="noreferrer" target="_blank">
+              <a className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-black/10 bg-white p-5 text-center transition-colors hover:border-red-500/50" href="https://wa.me/213552069874?text=Hello%20freegotv%20IPTV%20support%2C%20I%20need%20help." rel="noreferrer" target="_blank">
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-red-500/20 text-red-400"><MessageCircle className="h-5 w-5" /></span>
                 <span className="mt-4 block text-base font-bold text-black">WhatsApp Support</span>
                 <span className="mt-2 block text-xs leading-5 text-stone-600">Fastest way to reach us for technical issues.</span>

@@ -12,17 +12,17 @@ const primaryFeatures = [
 const benefits = [
   { icon: Bolt, title: "Instant Activation", text: "Your subscription is activated within minutes.", color: "text-red-400" },
   { icon: Smartphone, title: "All Devices Supported", text: "Smart TV, Android, iOS, Mac, Fire Stick, PC, and more.", color: "text-sky-400" },
-  { icon: Globe2, title: "Works Worldwide", text: "Enjoy 4K IPTV USA wherever you are, on any connection.", color: "text-red-400" },
+  { icon: Globe2, title: "Works Worldwide", text: "Enjoy FreeGoTV wherever you are, on any connection.", color: "text-red-400" },
   { icon: ShieldCheck, title: "99.9% Uptime", text: "Reliable servers with stable, buffer-free streaming.", color: "text-red-300" },
 ];
 
-export default function WhyIPTV4K IPTV USASection() {
+export default function WhyIPTVFreeGoTVSection() {
   return <section className="relative overflow-hidden bg-white py-24 sm:py-28">
     <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_42%,rgba(74,53,155,0.13),transparent_42%)] pointer-events-none" />
     <div className="relative mx-auto max-w-[1120px] px-5 sm:px-8">
       <div className="mx-auto mb-14 max-w-3xl text-center">
-        <span className="inline-flex rounded-full border border-red-400/35 bg-red-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-red-300">Why choose 4K IPTV USA?</span>
-        <h2 className="mt-6 text-4xl font-black uppercase leading-[0.98] tracking-tight text-black sm:text-5xl"><span className="block">The Ultimate</span><span className="mt-1 block bg-gradient-to-r from-red-400 via-red-400 to-red-400 bg-clip-text text-transparent">4K IPTV USA Experience</span></h2>
+        <span className="inline-flex rounded-full border border-red-400/35 bg-red-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-red-300">Why choose FreeGoTV?</span>
+        <h2 className="mt-6 text-4xl font-black uppercase leading-[0.98] tracking-tight text-black sm:text-5xl"><span className="block">The Ultimate</span><span className="mt-1 block bg-gradient-to-r from-red-400 via-red-400 to-red-400 bg-clip-text text-transparent">FreeGoTV Experience</span></h2>
         <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-stone-600">Everything you need for premium live television and on-demand entertainment—on any device, anywhere in the world.</p>
       </div>
 

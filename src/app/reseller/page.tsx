@@ -1,9 +1,9 @@
 import ResellerPageContent from "@/components/reseller/ResellerPageContent";
 
 export const metadata = {
-  title: "Become an IPTV Reseller | Start Your IPTV Business - 4K IPTV USA",
+  title: "Become an IPTV Reseller | Start Your IPTV Business - FreeGoTV",
   description:
-    "Join the 4K IPTV USA Reseller Program. High-margin IPTV reseller panel, custom credit packages, sub-reseller management, and 24/7 dedicated support.",
+    "Join the FreeGoTV Reseller Program. High-margin IPTV reseller panel, custom credit packages, sub-reseller management, and 24/7 dedicated support.",
   alternates: {
     canonical: "/reseller",
   },

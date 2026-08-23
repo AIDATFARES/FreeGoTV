@@ -4,10 +4,10 @@ import { ArrowRight, HelpCircle } from "lucide-react";
 const faqs = [
   {
     id: 1,
-    question: "1. What is 4K IPTV USA?",
+    question: "1. What is FreeGoTV?",
     answer: (
       <>
-        4K IPTV USA is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
+        FreeGoTV is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
         <Link
           href="/channels"
           className="text-red-500 font-semibold hover:text-red-400 transition-colors"
@@ -27,12 +27,12 @@ const faqs = [
   },
   {
     id: 2,
-    question: "2. Do I need a subscription to use 4K IPTV USA?",
+    question: "2. Do I need a subscription to use FreeGoTV?",
     answer: (
       <>
         Yes, a subscription is required. However, we offer a{" "}
         <a
-          href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%204kiptvusa%20IPTV."
+          href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV."
           target="_blank"
           rel="noreferrer"
           className="text-red-500 font-semibold hover:text-red-400 transition-colors"
@@ -52,10 +52,10 @@ const faqs = [
   },
   {
     id: 3,
-    question: "3. What devices are compatible with 4K IPTV USA?",
+    question: "3. What devices are compatible with FreeGoTV?",
     answer: (
       <>
-        4K IPTV USA works on Android TV, Firestick, Smart TVs, Android phones, tablets, and apps like Tivimate. Follow our step-by-step{" "}
+        FreeGoTV works on Android TV, Firestick, Smart TVs, Android phones, tablets, and apps like Tivimate. Follow our step-by-step{" "}
         <Link
           href="/installation"
           className="text-red-500 font-semibold hover:text-red-400 transition-colors"
@@ -84,7 +84,7 @@ const faqs = [
   },
   {
     id: 5,
-    question: "5. Can I watch sports on 4K IPTV USA?",
+    question: "5. Can I watch sports on FreeGoTV?",
     answer: (
       <>
         Absolutely. We offer a wide selection of live sports channels, including major leagues and international events. Explore our full{" "}

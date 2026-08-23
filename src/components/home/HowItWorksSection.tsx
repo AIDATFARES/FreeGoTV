@@ -7,7 +7,7 @@ export default function HowItWorksSection() {
       <div className="max-w-[1240px] mx-auto px-6">
 
         {/* ========================================================================= */}
-        {/* PART 1: How does it work? 4K IPTV USA Timeline */}
+        {/* PART 1: How does it work? FreeGoTV Timeline */}
         {/* ========================================================================= */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs font-bold uppercase tracking-widest text-[#FF6B00] mb-2 block">
@@ -17,7 +17,7 @@ export default function HowItWorksSection() {
             How to Start Your Premium IPTV Subscription
           </h2>
           <p className="text-stone-700 text-sm sm:text-base mt-4 leading-relaxed max-w-2xl mx-auto">
-            Setting up your 4K IPTV USA account is quick and simple. Follow our 3-step process to get instant access to live TV, movies, and series.
+            Setting up your FreeGoTV account is quick and simple. Follow our 3-step process to get instant access to live TV, movies, and series.
           </p>
         </div>
 

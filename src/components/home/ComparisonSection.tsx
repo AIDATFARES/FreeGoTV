@@ -9,7 +9,7 @@ export default function ComparisonSection() {
             IPTV VS CABLE TV
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black tracking-tight">
-            Why 4K IPTV USA is the Best Cable TV Alternative
+            Why FreeGoTV is the Best Cable TV Alternative
           </h2>
           <p className="text-stone-700 text-sm sm:text-base mt-4 leading-relaxed max-w-2xl mx-auto">
             Discover why thousands of users are cutting the cord. Our premium IPTV service offers more channels, better 4K quality, and reliable anti-freeze technology at a fraction of the cost of traditional cable.
@@ -34,28 +34,28 @@ export default function ComparisonSection() {
               {/* Table Header */}
               <div className="grid grid-cols-4 bg-stone-50 border-b border-stone-200">
                 <div className="p-6 text-sm font-bold text-stone-500 uppercase tracking-wider">Feature</div>
-                <div className="p-6 text-sm font-black text-[#FF6B00] uppercase tracking-wider text-center border-x border-stone-200 bg-red-50/50">4K IPTV USA</div>
+                <div className="p-6 text-sm font-black text-[#FF6B00] uppercase tracking-wider text-center border-x border-stone-200 bg-red-50/50">FreeGoTV</div>
                 <div className="p-6 text-sm font-bold text-stone-500 uppercase tracking-wider text-center">Cable / Satellite</div>
                 <div className="p-6 text-sm font-bold text-stone-500 uppercase tracking-wider text-center border-l border-stone-200">Other IPTV</div>
               </div>
 
               {/* Table Rows */}
               {[
-                { feature: "Monthly Cost", 4kiptvusa: "From $4.2/mo", cable: "$80-$200/mo", other: "$10-$30/mo (unreliable)" },
-                { feature: "Live Channels", 4kiptvusa: "50,000+", cable: "200-500", other: "5,000-15,000" },
-                { feature: "4K Streaming", 4kiptvusa: "✓ Native 4K", cable: "Limited", other: "Rarely stable" },
-                { feature: "VOD Library", 4kiptvusa: "120,000+ titles", cable: "Add-on cost", other: "Varies wildly" },
-                { feature: "Server Uptime", 4kiptvusa: "99.9% guaranteed", cable: "99%", other: "60-85%" },
-                { feature: "Buffering", 4kiptvusa: "Zero — ever", cable: "Rare", other: "Common at peak hours" },
-                { feature: "Setup", 4kiptvusa: "5 minutes", cable: "Technician visit", other: "Varies" },
-                { feature: "Contract", 4kiptvusa: "No", cable: "12-24 months", other: "Sometimes" },
-                { feature: "Multi-Screen", 4kiptvusa: "✓ Included", cable: "Extra cost", other: "Limited" },
-                { feature: "Free Trial", 4kiptvusa: "✓ Available", cable: "No", other: "Rare" },
+                { feature: "Monthly Cost", freegotv: "From $4.2/mo", cable: "$80-$200/mo", other: "$10-$30/mo (unreliable)" },
+                { feature: "Live Channels", freegotv: "50,000+", cable: "200-500", other: "5,000-15,000" },
+                { feature: "4K Streaming", freegotv: "✓ Native 4K", cable: "Limited", other: "Rarely stable" },
+                { feature: "VOD Library", freegotv: "120,000+ titles", cable: "Add-on cost", other: "Varies wildly" },
+                { feature: "Server Uptime", freegotv: "99.9% guaranteed", cable: "99%", other: "60-85%" },
+                { feature: "Buffering", freegotv: "Zero — ever", cable: "Rare", other: "Common at peak hours" },
+                { feature: "Setup", freegotv: "5 minutes", cable: "Technician visit", other: "Varies" },
+                { feature: "Contract", freegotv: "No", cable: "12-24 months", other: "Sometimes" },
+                { feature: "Multi-Screen", freegotv: "✓ Included", cable: "Extra cost", other: "Limited" },
+                { feature: "Free Trial", freegotv: "✓ Available", cable: "No", other: "Rare" },
               ].map((row, idx) => (
                 <div key={idx} className={`grid grid-cols-4 border-b border-stone-100 hover:bg-stone-50 transition-colors ${idx === 9 ? 'border-b-0' : ''}`}>
                   <div className="p-5 text-sm font-bold text-stone-800 flex items-center">{row.feature}</div>
                   <div className="p-5 text-sm font-bold text-black text-center flex items-center justify-center border-x border-stone-100 bg-red-50/30">
-                    {row.4kiptvusa}
+                    {row.freegotv}
                   </div>
                   <div className="p-5 text-sm font-medium text-stone-500 text-center flex items-center justify-center">
                     {row.cable}
