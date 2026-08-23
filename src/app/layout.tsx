@@ -24,14 +24,14 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "FreeGoTV - Premium 4K Streaming Services",
   description: "Ultimate 4K IPTV Experience. Access +50,000 Channels, +120,000 Films & Series, and 200,000+ VODs.",
-  metadataBase: new URL("https://www.freegotv.shop"),
+  metadataBase: new URL("https://www.freegotv-iptv.shop"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "FreeGoTV - Premium 4K Streaming",
     description: "Ultimate 4K IPTV Experience. Access +50,000 Channels, +120,000 Films & Series, and 200,000+ VODs.",
-    url: "https://www.freegotv.shop",
+    url: "https://www.freegotv-iptv.shop",
     siteName: "FreeGoTV",
     images: [
       {
@@ -106,7 +106,7 @@ export default function RootLayout({
               <ul className="space-y-3 font-body-sm text-sm">
                 <li><Link prefetch={false} className="text-stone-600 transition-colors hover:text-black" href="/pricing">Get Started</Link></li>
                 <li><a className="text-stone-600 transition-colors hover:text-black" href="https://wa.me/213552069874" target="_blank" rel="noreferrer">WhatsApp</a></li>
-                <li><a className="text-stone-600 transition-colors hover:text-black" href="mailto:support@freegotv.shop">Email</a></li>
+                <li><a className="text-stone-600 transition-colors hover:text-black" href="mailto:support@freegotv-iptv.shop">Email</a></li>
                 <li><Link prefetch={false} className="text-stone-600 transition-colors hover:text-black" href="/channels">Channels</Link></li>
                 <li><Link prefetch={false} className="text-stone-600 transition-colors hover:text-black" href="/installation">Setup Guide</Link></li>
               </ul>

@@ -27,9 +27,9 @@ export default function Contact() {
             <p className="font-body-sm text-body-sm text-on-surface-variant mb-md">For general inquiries and support.</p>
             <a
               className="text-primary font-medium hover:text-primary-fixed transition-colors"
-              href="mailto:support@freegotv.shop"
+              href="mailto:support@freegotv-iptv.shop"
             >
-              support@freegotv.shop
+              support@freegotv-iptv.shop
             </a>
           </div>
 
