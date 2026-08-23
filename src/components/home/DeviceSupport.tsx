@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function DeviceSupport() {
   return (
-    <section className="py-24 bg-stone-50 text-black relative z-10 border-y border-black/10 overflow-hidden">
+    <section className="py-24 bg-stone-50 text-[#2F3136] relative z-10 border-y border-black/10 overflow-hidden">
       <div className="max-w-[1240px] mx-auto px-6">
         
         {/* Section Header */}
@@ -12,11 +12,11 @@ export default function DeviceSupport() {
           <span className="text-xs font-bold uppercase tracking-widest text-[#FF6B00] mb-3 block">
             SUPPORTED IPTV DEVICES
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black tracking-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#2F3136] tracking-tight">
             Watch the Best IPTV Service on{" "}
             <Link
               href="/installation"
-              className="text-[#FF6B00] hover:text-red-400 transition-colors"
+              className="text-[#FF6B00] hover:text-[#7D927D] transition-colors"
             >
               All Your Favorite Devices
             </Link>
@@ -26,7 +26,7 @@ export default function DeviceSupport() {
         {/* Center Image Display */}
         <div className="relative mx-auto max-w-[800px] mb-16 group">
           {/* Subtle background glow for the image */}
-          <div className="absolute inset-0 bg-red-400/10 blur-[80px] rounded-full scale-90 -z-10 group-hover:bg-red-400/20 transition-all duration-700"></div>
+          <div className="absolute inset-0 bg-[#7D927D]/10 blur-[80px] rounded-full scale-90 -z-10 group-hover:bg-[#7D927D]/20 transition-all duration-700"></div>
           
           <div className="relative overflow-hidden rounded-2xl border border-black/10 bg-white shadow-xl transition-transform duration-500 hover:scale-[1.02]">
             <Image
@@ -49,14 +49,14 @@ export default function DeviceSupport() {
             <div className="h-12 w-12 rounded-xl bg-red-50 text-[#FF6B00] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10">
               <Tv className="h-6 w-6 stroke-[2.5]" />
             </div>
-            <h3 className="text-xl font-bold text-black mb-3">
+            <h3 className="text-xl font-bold text-[#2F3136] mb-3">
               Smart TVs, Android Boxes & Firestick
             </h3>
-            <p className="text-stone-600 leading-relaxed text-sm">
+            <p className="text-[#68717A] leading-relaxed text-sm">
               Our premium IPTV subscription is fully compatible with Samsung and LG Smart TVs, Amazon Firestick, Android TV boxes, and smartphones. Enjoy buffer-free live TV on any screen using our simple{" "}
               <Link
                 href="/installation"
-                className="text-[#FF6B00] font-semibold hover:text-red-400 transition-colors"
+                className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors"
               >
                 installation guide
               </Link>
@@ -69,14 +69,14 @@ export default function DeviceSupport() {
             <div className="h-12 w-12 rounded-xl bg-red-50 text-[#FF6B00] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10">
               <Box className="h-6 w-6 stroke-[2.5]" />
             </div>
-            <h3 className="text-xl font-bold text-black mb-3">
+            <h3 className="text-xl font-bold text-[#2F3136] mb-3">
               MAG Devices & STB Emulators
             </h3>
-            <p className="text-stone-600 leading-relaxed text-sm">
+            <p className="text-[#68717A] leading-relaxed text-sm">
               Connect your MAG box or STB emulator instantly. Just provide your MAC address, and we will send you our high-speed IPTV portal for access to thousands of live channels and our{" "}
               <Link
                 href="/channels"
-                className="text-[#FF6B00] font-semibold hover:text-red-400 transition-colors"
+                className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors"
               >
                 VOD library
               </Link>
@@ -89,14 +89,14 @@ export default function DeviceSupport() {
             <div className="h-12 w-12 rounded-xl bg-red-50 text-[#FF6B00] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 relative z-10">
               <Laptop className="h-6 w-6 stroke-[2.5]" />
             </div>
-            <h3 className="text-xl font-bold text-black mb-3">
+            <h3 className="text-xl font-bold text-[#2F3136] mb-3">
               Windows & Mac Computers
             </h3>
-            <p className="text-stone-600 leading-relaxed text-sm">
+            <p className="text-[#68717A] leading-relaxed text-sm">
               Stream live sports and 4K movies directly on your computer. Whether you use Windows or Mac, you can easily watch our IPTV service using popular{" "}
               <Link
                 href="/installation"
-                className="text-[#FF6B00] font-semibold hover:text-red-400 transition-colors"
+                className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors"
               >
                 IPTV players
               </Link>{" "}

@@ -26,8 +26,8 @@ const faqs: FAQItem[] = [
     answer: (
       <>
         FreeGoTV is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
-        <Link href="/channels" className="text-red-500 font-semibold hover:text-red-400 transition-colors">live TV channels</Link> and{" "}
-        <Link href="/pricing" className="text-red-500 font-semibold hover:text-red-400 transition-colors">IPTV subscription plans</Link>.
+        <Link href="/channels" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">live TV channels</Link> and{" "}
+        <Link href="/pricing" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">IPTV subscription plans</Link>.
       </>
     ),
   },
@@ -45,7 +45,7 @@ const faqs: FAQItem[] = [
     question: "3. What channels and content are included with FreeGoTV?",
     answer: (
       <>
-        FreeGoTV includes a broad selection of live channels covering sports, news, and entertainment, along with a regularly updated on-demand library of movies and TV series. Check our <Link href="/channels" className="text-red-500 font-semibold hover:text-red-400 transition-colors">full channels catalog</Link>.
+        FreeGoTV includes a broad selection of live channels covering sports, news, and entertainment, along with a regularly updated on-demand library of movies and TV series. Check our <Link href="/channels" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">full channels catalog</Link>.
       </>
     ),
   },
@@ -54,7 +54,7 @@ const faqs: FAQItem[] = [
     question: "4. Can I watch live sports and PPV events on FreeGoTV?",
     answer: (
       <>
-        FreeGoTV includes a range of live sports channels and events. Coverage can include football, NFL, NBA, UFC, and pay-per-view events. Explore our <Link href="/channels" className="text-red-500 font-semibold hover:text-red-400 transition-colors">live sports section</Link>.
+        FreeGoTV includes a range of live sports channels and events. Coverage can include football, NFL, NBA, UFC, and pay-per-view events. Explore our <Link href="/channels" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">live sports section</Link>.
       </>
     ),
   },
@@ -63,7 +63,7 @@ const faqs: FAQItem[] = [
     question: "5. Which devices can I use?",
     answer: (
       <>
-        FreeGoTV works with compatible IPTV apps on Smart TVs, Android TV, Firestick, Apple TV, smartphones, tablets, and computers. Follow our <Link href="/installation" className="text-red-500 font-semibold hover:text-red-400 transition-colors">installation guides</Link> to get started.
+        FreeGoTV works with compatible IPTV apps on Smart TVs, Android TV, Firestick, Apple TV, smartphones, tablets, and computers. Follow our <Link href="/installation" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">installation guides</Link> to get started.
       </>
     ),
   },
@@ -72,7 +72,7 @@ const faqs: FAQItem[] = [
     question: "1. How do I install FreeGoTV on my device?",
     answer: (
       <>
-        Start by installing a compatible IPTV player on your device. Enter the FreeGoTV credentials from your email. View our step-by-step <Link href="/installation" className="text-red-500 font-semibold hover:text-red-400 transition-colors">installation guides</Link> for detailed instructions.
+        Start by installing a compatible IPTV player on your device. Enter the FreeGoTV credentials from your email. View our step-by-step <Link href="/installation" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">installation guides</Link> for detailed instructions.
       </>
     ),
   },
@@ -99,7 +99,7 @@ const faqs: FAQItem[] = [
     question: "4. Why is FreeGoTV buffering or freezing?",
     answer: (
       <>
-        Restart your IPTV app and router. If buffering persists, check your Wi-Fi signal or <Link href="/contact" className="text-red-500 font-semibold hover:text-red-400 transition-colors">contact support</Link> for quick assistance.
+        Restart your IPTV app and router. If buffering persists, check your Wi-Fi signal or <Link href="/contact" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">contact support</Link> for quick assistance.
       </>
     ),
   },
@@ -108,7 +108,7 @@ const faqs: FAQItem[] = [
     question: "5. Do I need a VPN to use FreeGoTV?",
     answer: (
       <>
-        A VPN is not required but is recommended in some regions to ensure unrestricted access and added privacy. Contact our <Link href="/contact" className="text-red-500 font-semibold hover:text-red-400 transition-colors">support team</Link> for VPN setup recommendations.
+        A VPN is not required but is recommended in some regions to ensure unrestricted access and added privacy. Contact our <Link href="/contact" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">support team</Link> for VPN setup recommendations.
       </>
     ),
   },
@@ -117,7 +117,7 @@ const faqs: FAQItem[] = [
     question: "1. Are there any hidden fees or contracts with FreeGoTV?",
     answer: (
       <>
-        No contracts and no hidden fees. Choose an <Link href="/pricing" className="text-red-500 font-semibold hover:text-red-400 transition-colors">IPTV subscription plan</Link> with transparent pricing and instant delivery.
+        No contracts and no hidden fees. Choose an <Link href="/pricing" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">IPTV subscription plan</Link> with transparent pricing and instant delivery.
       </>
     ),
   },
@@ -126,7 +126,7 @@ const faqs: FAQItem[] = [
     question: "2. Can I use FreeGoTV on multiple devices?",
     answer: (
       <>
-        Yes! We offer multi-device subscription plans. Select the 1, 2, or 3 device option on our <Link href="/pricing" className="text-red-500 font-semibold hover:text-red-400 transition-colors">pricing page</Link>.
+        Yes! We offer multi-device subscription plans. Select the 1, 2, or 3 device option on our <Link href="/pricing" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">pricing page</Link>.
       </>
     ),
   },
@@ -144,7 +144,7 @@ const faqs: FAQItem[] = [
     question: "1. Does FreeGoTV offer a free trial?",
     answer: (
       <>
-        Yes, we offer a <a href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV." target="_blank" rel="noreferrer" className="text-red-500 font-semibold hover:text-red-400 transition-colors">free trial</a> so you can test our service before subscribing.
+        Yes, we offer a <a href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV." target="_blank" rel="noreferrer" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">free trial</a> so you can test our service before subscribing.
       </>
     ),
   },
@@ -153,7 +153,7 @@ const faqs: FAQItem[] = [
     question: "2. Which payment methods does FreeGoTV accept?",
     answer: (
       <>
-        We accept PayPal, Crypto (Bitcoin), Credit Cards, and Instant Bank Transfers. For help with payments, reach out to our <Link href="/contact" className="text-red-500 font-semibold hover:text-red-400 transition-colors">support team</Link>.
+        We accept PayPal, Crypto (Bitcoin), Credit Cards, and Instant Bank Transfers. For help with payments, reach out to our <Link href="/contact" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">support team</Link>.
       </>
     ),
   },
@@ -191,15 +191,15 @@ export default function FAQ() {
     <main className="flex-grow px-4 sm:px-6 pb-20 pt-12 md:pt-16 bg-white">
       <div className="mx-auto max-w-[1140px]">
         <header className="mx-auto mb-12 max-w-3xl text-center md:mb-16">
-          <p className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-red-400">Help center</p>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black tracking-tight leading-tight">
+          <p className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-[#7D927D]">Help center</p>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#2F3136] tracking-tight leading-tight">
             Frequently Asked Questions<br />(FAQ)
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-sm sm:text-base leading-relaxed text-stone-700">
             Find answers to common questions about our IPTV service, including{" "}
-            <Link href="/pricing" className="text-red-500 font-semibold hover:text-red-400 transition-colors">subscriptions</Link>,{" "}
-            <Link href="/installation" className="text-red-500 font-semibold hover:text-red-400 transition-colors">devices</Link>, streaming quality, payments, and more. If you need further help, our{" "}
-            <Link href="/contact" className="text-red-500 font-semibold hover:text-red-400 transition-colors">support team</Link> is here for you.
+            <Link href="/pricing" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">subscriptions</Link>,{" "}
+            <Link href="/installation" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">devices</Link>, streaming quality, payments, and more. If you need further help, our{" "}
+            <Link href="/contact" className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors">support team</Link> is here for you.
           </p>
         </header>
 
@@ -214,8 +214,8 @@ export default function FAQ() {
                       aria-pressed={isSelected}
                       className={`flex shrink-0 items-center gap-3 rounded-xl px-4 py-3 text-left text-sm font-semibold transition-all md:w-full ${
                         isSelected
-                          ? "bg-red-600 text-black shadow-lg shadow-red-600/30"
-                          : "text-stone-600 hover:bg-white/[0.07] hover:text-black"
+                          ? "bg-[#7D927D] text-[#2F3136] shadow-lg shadow-red-600/30"
+                          : "text-[#68717A] hover:bg-white/[0.07] hover:text-[#2F3136]"
                       }`}
                       key={label}
                       onClick={() => selectCategory(label)}
@@ -232,8 +232,8 @@ export default function FAQ() {
 
           <section aria-live="polite" className="space-y-4">
             <div className="mb-5 flex items-center gap-3">
-              <MonitorPlay className="h-5 w-5 text-red-500" />
-              <h2 className="text-xl font-bold text-black">{activeCategory}</h2>
+              <MonitorPlay className="h-5 w-5 text-[#7D927D]" />
+              <h2 className="text-xl font-bold text-[#2F3136]">{activeCategory}</h2>
             </div>
             <div className="grid grid-cols-1 gap-5">
               {visibleFaqs.map((faq, index) => {
@@ -241,23 +241,23 @@ export default function FAQ() {
                 const contentId = `faq-${activeCategory.replaceAll(" ", "-").toLowerCase()}-${index}`;
 
                 return (
-                  <article className="flex flex-col rounded-2xl overflow-hidden border border-black/10 bg-white shadow-xl hover:border-red-500/40 transition-colors" key={faq.question}>
+                  <article className="flex flex-col rounded-2xl overflow-hidden border border-black/10 bg-white shadow-xl hover:border-[#7D927D]/40 transition-colors" key={faq.question}>
                     {/* Header Banner */}
                     <div className="bg-stone-100 border-b border-black/10 px-5 py-4 flex items-center justify-between gap-3">
                       <div className="flex items-center gap-3">
-                        <HelpCircle className="w-5 h-5 text-red-500 shrink-0" />
-                        <h3 className="text-base sm:text-lg font-bold text-black leading-snug">
+                        <HelpCircle className="w-5 h-5 text-[#7D927D] shrink-0" />
+                        <h3 className="text-base sm:text-lg font-bold text-[#2F3136] leading-snug">
                           {faq.question}
                         </h3>
                       </div>
                       <button
                         aria-controls={contentId}
                         aria-expanded={isOpen}
-                        className="text-stone-600 hover:text-black transition-colors"
+                        className="text-[#68717A] hover:text-[#2F3136] transition-colors"
                         onClick={() => setActiveIndex(isOpen ? null : index)}
                         type="button"
                       >
-                        <ChevronDown className={`h-5 w-5 shrink-0 text-red-400 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`h-5 w-5 shrink-0 text-[#7D927D] transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
                       </button>
                     </div>
 
@@ -274,40 +274,40 @@ export default function FAQ() {
 
         <section className="mt-20 border-t border-black/10 pt-16 sm:pt-20">
           <header className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-black">Get in Touch with Our Support Team</h2>
-            <p className="mt-3 text-sm leading-6 text-stone-600">We&apos;re here to help you get the best streaming experience. Send us a message and we&apos;ll get back to you quickly.</p>
+            <h2 className="text-3xl font-bold tracking-tight text-[#2F3136]">Get in Touch with Our Support Team</h2>
+            <p className="mt-3 text-sm leading-6 text-[#68717A]">We&apos;re here to help you get the best streaming experience. Send us a message and we&apos;ll get back to you quickly.</p>
           </header>
           <div className="mt-10 grid gap-8 xl:grid-cols-[278px_minmax(0,1fr)] xl:gap-10">
             <div className="grid gap-3 sm:grid-cols-3 xl:grid-cols-1">
-              <a className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-black/10 bg-white p-5 text-center transition-colors hover:border-red-500/50" href="mailto:support@freegotv-iptv.shop">
-                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-red-500/20 text-red-400"><Mail className="h-5 w-5" /></span>
-                <span className="mt-4 block text-base font-bold text-black">Email Us</span>
-                <span className="mt-2 block text-xs leading-5 text-stone-600">For general inquiries and support.</span>
-                <span className="mt-3 block text-xs font-semibold text-red-400">support@freegotv-iptv.shop</span>
+              <a className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-black/10 bg-white p-5 text-center transition-colors hover:border-[#7D927D]/50" href="mailto:support@freegotv-iptv.shop">
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#7D927D]/20 text-[#7D927D]"><Mail className="h-5 w-5" /></span>
+                <span className="mt-4 block text-base font-bold text-[#2F3136]">Email Us</span>
+                <span className="mt-2 block text-xs leading-5 text-[#68717A]">For general inquiries and support.</span>
+                <span className="mt-3 block text-xs font-semibold text-[#7D927D]">support@freegotv-iptv.shop</span>
               </a>
-              <a className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-black/10 bg-white p-5 text-center transition-colors hover:border-red-500/50" href="https://wa.me/213552069874?text=Hello%20freegotv%20IPTV%20support%2C%20I%20need%20help." rel="noreferrer" target="_blank">
-                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-red-500/20 text-red-400"><MessageCircle className="h-5 w-5" /></span>
-                <span className="mt-4 block text-base font-bold text-black">WhatsApp Support</span>
-                <span className="mt-2 block text-xs leading-5 text-stone-600">Fastest way to reach us for technical issues.</span>
-                <span className="mt-3 block text-xs font-semibold text-red-400">Start Chat →</span>
+              <a className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-black/10 bg-white p-5 text-center transition-colors hover:border-[#7D927D]/50" href="https://wa.me/213552069874?text=Hello%20freegotv%20IPTV%20support%2C%20I%20need%20help." rel="noreferrer" target="_blank">
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#7D927D]/20 text-[#7D927D]"><MessageCircle className="h-5 w-5" /></span>
+                <span className="mt-4 block text-base font-bold text-[#2F3136]">WhatsApp Support</span>
+                <span className="mt-2 block text-xs leading-5 text-[#68717A]">Fastest way to reach us for technical issues.</span>
+                <span className="mt-3 block text-xs font-semibold text-[#7D927D]">Start Chat →</span>
               </a>
               <div className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-black/10 bg-white p-5 text-center">
-                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-black/10 text-stone-700"><Clock3 className="h-5 w-5" /></span>
-                <span className="mt-4 block text-base font-bold text-black">Response Time</span>
-                <span className="mt-2 block text-xs leading-5 text-stone-600">We typically reply within <strong className="text-black">2 hours</strong> during standard business hours.</span>
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#2F3136]/10 text-stone-700"><Clock3 className="h-5 w-5" /></span>
+                <span className="mt-4 block text-base font-bold text-[#2F3136]">Response Time</span>
+                <span className="mt-2 block text-xs leading-5 text-[#68717A]">We typically reply within <strong className="text-[#2F3136]">2 hours</strong> during standard business hours.</span>
               </div>
             </div>
 
             <div className="rounded-2xl border border-black/10 bg-white p-6 sm:p-8">
-              <h3 className="text-xl font-bold text-black">Send us a message</h3>
+              <h3 className="text-xl font-bold text-[#2F3136]">Send us a message</h3>
               <form action={sendSupportMessage} className="mt-6 space-y-4">
                 <div className="grid gap-4 sm:grid-cols-2">
-                  <label className="block text-xs font-semibold text-stone-600">Name<input className="mt-2 w-full rounded-xl border border-black/10 bg-white px-3.5 py-3 text-sm text-black outline-none transition-colors placeholder:text-stone-500 focus:border-red-500" name="name" placeholder="John Doe" required /></label>
-                  <label className="block text-xs font-semibold text-stone-600">Email address<input className="mt-2 w-full rounded-xl border border-black/10 bg-white px-3.5 py-3 text-sm text-black outline-none transition-colors placeholder:text-stone-500 focus:border-red-500" name="email" placeholder="john@example.com" required type="email" /></label>
+                  <label className="block text-xs font-semibold text-[#68717A]">Name<input className="mt-2 w-full rounded-xl border border-black/10 bg-white px-3.5 py-3 text-sm text-[#2F3136] outline-none transition-colors placeholder:text-[#68717A] focus:border-[#7D927D]" name="name" placeholder="John Doe" required /></label>
+                  <label className="block text-xs font-semibold text-[#68717A]">Email address<input className="mt-2 w-full rounded-xl border border-black/10 bg-white px-3.5 py-3 text-sm text-[#2F3136] outline-none transition-colors placeholder:text-[#68717A] focus:border-[#7D927D]" name="email" placeholder="john@example.com" required type="email" /></label>
                 </div>
-                <label className="block text-xs font-semibold text-stone-600">Subject<input className="mt-2 w-full rounded-xl border border-black/10 bg-white px-3.5 py-3 text-sm text-black outline-none transition-colors placeholder:text-stone-500 focus:border-red-500" name="subject" placeholder="How can we help?" /></label>
-                <label className="block text-xs font-semibold text-stone-600">Message<textarea className="mt-2 min-h-32 w-full resize-y rounded-xl border border-black/10 bg-white px-3.5 py-3 text-sm text-black outline-none transition-colors placeholder:text-stone-500 focus:border-red-500" name="message" placeholder="Describe your question or issue..." required /></label>
-                <button className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-red-600 hover:bg-red-500 py-3.5 text-sm font-bold text-black shadow-lg shadow-red-600/30 transition-all hover:-translate-y-0.5 active:translate-y-0" type="submit"><Send className="h-4 w-4" />Send message via WhatsApp</button>
+                <label className="block text-xs font-semibold text-[#68717A]">Subject<input className="mt-2 w-full rounded-xl border border-black/10 bg-white px-3.5 py-3 text-sm text-[#2F3136] outline-none transition-colors placeholder:text-[#68717A] focus:border-[#7D927D]" name="subject" placeholder="How can we help?" /></label>
+                <label className="block text-xs font-semibold text-[#68717A]">Message<textarea className="mt-2 min-h-32 w-full resize-y rounded-xl border border-black/10 bg-white px-3.5 py-3 text-sm text-[#2F3136] outline-none transition-colors placeholder:text-[#68717A] focus:border-[#7D927D]" name="message" placeholder="Describe your question or issue..." required /></label>
+                <button className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#7D927D] hover:bg-[#7D927D] py-3.5 text-sm font-bold text-[#2F3136] shadow-lg shadow-red-600/30 transition-all hover:-translate-y-0.5 active:translate-y-0" type="submit"><Send className="h-4 w-4" />Send message via WhatsApp</button>
               </form>
             </div>
           </div>

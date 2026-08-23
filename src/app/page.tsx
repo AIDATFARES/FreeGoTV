@@ -44,7 +44,7 @@ export default function Home() {
 
       {/* Channel & Installation Quick Links */}
       <div className="w-full bg-white py-6 px-4 text-center border-t border-black/5 relative z-20">
-        <p className="text-center text-sm md:text-base text-stone-600 max-w-3xl mx-auto">
+        <p className="text-center text-sm md:text-base text-[#68717A] max-w-3xl mx-auto">
           Find the comprehensive <Link prefetch={false} className="font-semibold text-[#FF6B00] hover:text-[#f44336]" href="/channels">FreeGoTV Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#FF6B00] hover:text-[#f44336]" href="/installation">FreeGoTV Installation Guide</Link> for a quick start.
         </p>
       </div>
@@ -58,7 +58,7 @@ export default function Home() {
       
       {/* Device Logos Marquee */}
       <div className="w-full bg-white border-t border-black/[0.05] pt-12 pb-6 relative z-10">
-        <h3 className="text-center text-sm font-bold tracking-widest text-stone-400 uppercase mb-8">Supported on all your favorite devices</h3>
+        <h3 className="text-center text-sm font-bold tracking-widest text-[#68717A] uppercase mb-8">Supported on all your favorite devices</h3>
         <BrandMarquee 
           imagesFolder="devices" 
           images={[

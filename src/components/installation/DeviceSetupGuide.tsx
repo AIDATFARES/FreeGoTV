@@ -29,8 +29,8 @@ export default function DeviceSetupGuide() {
   return (
     <section className="mb-16 md:mb-[100px]">
       <header className="mx-auto mb-9 max-w-2xl text-center">
-        <h2 className="text-3xl font-extrabold tracking-tight text-black sm:text-4xl">Device Setup Instructions</h2>
-        <p className="mt-3 text-base text-stone-600">Select your device to receive clear setup instructions.</p>
+        <h2 className="text-3xl font-extrabold tracking-tight text-[#2F3136] sm:text-4xl">Device Setup Instructions</h2>
+        <p className="mt-3 text-base text-[#68717A]">Select your device to receive clear setup instructions.</p>
       </header>
 
       <div className="mb-7 flex flex-wrap justify-center gap-2">
@@ -39,7 +39,7 @@ export default function DeviceSetupGuide() {
           const active = item.id === activeDevice;
           return (
             <button 
-              className={`inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-semibold transition-colors ${active ? "border-red-600 bg-[#FF6B00] text-white shadow-lg shadow-red-600/30" : "border-black/15 bg-white text-stone-600 hover:border-red-500/60 hover:text-black hover:bg-red-50"}`} 
+              className={`inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-semibold transition-colors ${active ? "border-[#7D927D] bg-[#FF6B00] text-[#2F3136] shadow-lg shadow-red-600/30" : "border-black/15 bg-white text-[#68717A] hover:border-[#7D927D]/60 hover:text-[#2F3136] hover:bg-red-50"}`} 
               key={item.id} 
               onClick={() => setActiveDevice(item.id)} 
               type="button"
@@ -58,8 +58,8 @@ export default function DeviceSetupGuide() {
             <DeviceIcon className="h-8 w-8 text-[#FF6B00]" />
           </div>
           <div>
-            <h3 className="text-2xl font-black text-black sm:text-3xl">{device.title}</h3>
-            <p className="mt-1 text-stone-500 font-medium">Follow these steps to configure your {device.label} for FreeGoTV.</p>
+            <h3 className="text-2xl font-black text-[#2F3136] sm:text-3xl">{device.title}</h3>
+            <p className="mt-1 text-[#68717A] font-medium">Follow these steps to configure your {device.label} for FreeGoTV.</p>
           </div>
         </div>
         
@@ -68,7 +68,7 @@ export default function DeviceSetupGuide() {
           <div className="mb-8 rounded-2xl border border-red-200 bg-red-50/50 p-5 flex items-start gap-4">
             <HelpCircle className="h-6 w-6 text-[#FF6B00] shrink-0" />
             <div>
-              <h4 className="font-bold text-black mb-1">Important Note</h4>
+              <h4 className="font-bold text-[#2F3136] mb-1">Important Note</h4>
               <p className="text-sm leading-relaxed text-stone-700">{device.note}</p>
             </div>
           </div>
@@ -103,13 +103,13 @@ export default function DeviceSetupGuide() {
       </article>
 
       <div className="mx-auto mt-20 max-w-[1000px]">
-        <h2 className="mb-8 text-center text-3xl font-extrabold tracking-tight text-black sm:text-4xl">Installation FAQ</h2>
+        <h2 className="mb-8 text-center text-3xl font-extrabold tracking-tight text-[#2F3136] sm:text-4xl">Installation FAQ</h2>
         <div className="grid gap-5 md:grid-cols-2">
           {faqs.map((faq) => (
             <div className="flex flex-col rounded-2xl overflow-hidden border border-stone-200 bg-white shadow-sm hover:border-red-200 transition-colors" key={faq.question}>
               <div className="bg-stone-50 border-b border-stone-100 px-5 py-4 flex items-center gap-3">
                 <HelpCircle className="w-5 h-5 text-[#FF6B00] shrink-0" />
-                <h3 className="text-base sm:text-lg font-bold text-black leading-snug">
+                <h3 className="text-base sm:text-lg font-bold text-[#2F3136] leading-snug">
                   {faq.question}
                 </h3>
               </div>
@@ -130,12 +130,12 @@ function SetupStep({ children, number, title }: { children: React.ReactNode; num
       
       {/* Content */}
       <div className="flex flex-1 gap-5 items-start">
-         <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#FF6B00] text-lg font-extrabold text-white shadow-md">
+         <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#FF6B00] text-lg font-extrabold text-[#2F3136] shadow-md">
            {number}
          </span>
          <div className="flex-1 mt-1">
-           <h4 className="text-lg font-bold text-black sm:text-xl">{title}</h4>
-           <div className="mt-3 text-sm leading-relaxed text-stone-600">
+           <h4 className="text-lg font-bold text-[#2F3136] sm:text-xl">{title}</h4>
+           <div className="mt-3 text-sm leading-relaxed text-[#68717A]">
              {children}
            </div>
          </div>

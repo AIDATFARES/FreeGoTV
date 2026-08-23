@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HowItWorksSection() {
   return (
-    <section className="py-20 bg-white text-black relative z-10 border-b border-black/10 overflow-hidden">
+    <section className="py-20 bg-white text-[#2F3136] relative z-10 border-b border-black/10 overflow-hidden">
       <div className="max-w-[1240px] mx-auto px-6">
 
         {/* ========================================================================= */}
@@ -30,7 +30,7 @@ export default function HowItWorksSection() {
           <div className="relative mb-16 md:mb-20">
             {/* Step Badge */}
             <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-4 z-20 flex justify-center mb-6 md:mb-0">
-              <span className="bg-[#FF6B00] text-black font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
+              <span className="bg-[#FF6B00] text-[#2F3136] font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
                 Step One
               </span>
             </div>
@@ -47,7 +47,7 @@ export default function HowItWorksSection() {
                     1. Choose Your IPTV Plan
                   </a>
                 </h3>
-                <p className="text-stone-400 text-sm leading-relaxed">
+                <p className="text-[#68717A] text-sm leading-relaxed">
                   Select the best IPTV subscription package for your needs from our{" "}
                   <a
                     href="#pricing"
@@ -67,7 +67,7 @@ export default function HowItWorksSection() {
               </div>
 
               {/* Right Image */}
-              <div className="overflow-hidden rounded-2xl bg-black/5 border border-black/10 shadow-xl"
+              <div className="overflow-hidden rounded-2xl bg-[#2F3136]/5 border border-black/10 shadow-xl"
               >
                 <Image
                   src="/step-1-order-v2.webp"
@@ -84,14 +84,14 @@ export default function HowItWorksSection() {
           <div className="relative mb-16 md:mb-20">
             {/* Step Badge */}
             <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-4 z-20 flex justify-center mb-6 md:mb-0">
-              <span className="bg-[#FF6B00] text-black font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
+              <span className="bg-[#FF6B00] text-[#2F3136] font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
                 Step Two
               </span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center pt-6">
               {/* Left Image */}
-              <div className="overflow-hidden rounded-2xl bg-black/5 border border-black/10 shadow-xl order-2 md:order-1"
+              <div className="overflow-hidden rounded-2xl bg-[#2F3136]/5 border border-black/10 shadow-xl order-2 md:order-1"
               >
                 <Image
                   src="/step-2-setup-v2.webp"
@@ -113,7 +113,7 @@ export default function HowItWorksSection() {
                     2. Install Your IPTV App
                   </Link>
                 </h3>
-                <p className="text-stone-400 text-sm leading-relaxed">
+                <p className="text-[#68717A] text-sm leading-relaxed">
                   Use our step-by-step{" "}
                   <Link
                     href="/installation"
@@ -131,7 +131,7 @@ export default function HowItWorksSection() {
           <div className="relative">
             {/* Step Badge */}
             <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-4 z-20 flex justify-center mb-6 md:mb-0">
-              <span className="bg-[#FF6B00] text-black font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
+              <span className="bg-[#FF6B00] text-[#2F3136] font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
                 Step Three
               </span>
             </div>
@@ -148,7 +148,7 @@ export default function HowItWorksSection() {
                     3. Watch Live TV & VOD
                   </Link>
                 </h3>
-                <p className="text-stone-400 text-sm leading-relaxed">
+                <p className="text-[#68717A] text-sm leading-relaxed">
                   Start streaming! Enjoy over 50,000 live HD and 4K channels, plus a massive Video on Demand (VOD) library of movies and series from our{" "}
                   <Link
                     href="/channels"
@@ -161,7 +161,7 @@ export default function HowItWorksSection() {
               </div>
 
               {/* Right Image */}
-              <div className="overflow-hidden rounded-2xl bg-black/5 border border-black/10 shadow-xl"
+              <div className="overflow-hidden rounded-2xl bg-[#2F3136]/5 border border-black/10 shadow-xl"
               >
                 <Image
                   src="/step-3-watch-v2.webp"

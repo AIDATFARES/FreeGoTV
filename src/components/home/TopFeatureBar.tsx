@@ -57,16 +57,16 @@ export default function TopFeatureBar() {
             return (
               <div
                 key={index}
-                className="bg-white/90 border border-black/10 rounded-xl p-3.5 sm:p-4 flex items-center gap-3.5 hover:border-red-500/40 transition-all duration-300 group"
+                className="bg-white/90 border border-black/10 rounded-xl p-3.5 sm:p-4 flex items-center gap-3.5 hover:border-[#7D927D]/40 transition-all duration-300 group"
               >
-                <div className="p-2.5 rounded-lg bg-red-500/10 border border-red-500/20 text-red-400 group-hover:scale-110 transition-transform shrink-0">
+                <div className="p-2.5 rounded-lg bg-[#7D927D]/10 border border-[#7D927D]/20 text-[#7D927D] group-hover:scale-110 transition-transform shrink-0">
                   <Icon className="w-5 h-5" strokeWidth={2} />
                 </div>
                 <div className="min-w-0">
-                  <p className="text-xs sm:text-sm font-bold text-black leading-tight truncate">
+                  <p className="text-xs sm:text-sm font-bold text-[#2F3136] leading-tight truncate">
                     {item.title}
                   </p>
-                  <p className="text-[11px] text-stone-600 truncate mt-0.5">{item.desc}</p>
+                  <p className="text-[11px] text-[#68717A] truncate mt-0.5">{item.desc}</p>
                 </div>
               </div>
             );
@@ -115,5 +115,5 @@ function AnimatedStat({ value, prefix, suffix }: { value: number; prefix: string
     return () => cancelAnimationFrame(frameId);
   }, [isInView, value, prefix, suffix]);
 
-  return <span className="block text-3xl font-extrabold tracking-tight text-black sm:text-4xl" ref={ref}>{prefix}0{suffix}</span>;
+  return <span className="block text-3xl font-extrabold tracking-tight text-[#2F3136] sm:text-4xl" ref={ref}>{prefix}0{suffix}</span>;
 }

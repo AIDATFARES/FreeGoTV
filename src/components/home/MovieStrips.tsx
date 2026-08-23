@@ -18,7 +18,7 @@ export default function MovieStrips() {
         <span className="inline-block py-1 px-4 rounded-full bg-[#FF6B00]/10 border border-[#FF6B00]/30 text-[#FF6B00] text-xs font-bold tracking-widest uppercase mb-4">
           Endless Entertainment
         </span>
-        <h2 className="text-3xl md:text-5xl font-extrabold text-black mb-4 tracking-tight">
+        <h2 className="text-3xl md:text-5xl font-extrabold text-[#2F3136] mb-4 tracking-tight">
           THE ULTIMATE <span className="text-[#FF6B00]">CINEMATIC</span> EXPERIENCE
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto text-sm md:text-base mb-8">
@@ -26,7 +26,7 @@ export default function MovieStrips() {
         </p>
         <Link 
           href="/channels"
-          className="inline-flex items-center justify-center px-8 py-3 rounded-full border border-[#FF6B00] text-black text-sm md:text-base font-medium bg-black/20 hover:bg-[#FF6B00]/10 transition-colors duration-300 gap-2"
+          className="inline-flex items-center justify-center px-8 py-3 rounded-full border border-[#FF6B00] text-[#2F3136] text-sm md:text-base font-medium bg-[#2F3136]/20 hover:bg-[#FF6B00]/10 transition-colors duration-300 gap-2"
         >
           View FreeGoTV Channel List <span aria-hidden="true">&rarr;</span>
         </Link>

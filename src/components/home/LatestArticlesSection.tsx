@@ -7,19 +7,19 @@ export default function LatestArticlesSection() {
   const displayPosts = blogPosts.slice(0, 3);
 
   return (
-    <section className="py-20 bg-white text-black relative z-10 border-t border-black/10 overflow-hidden">
+    <section className="py-20 bg-white text-[#2F3136] relative z-10 border-t border-black/10 overflow-hidden">
       {/* Glow background decoration */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-red-600/5 rounded-full blur-[140px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#7D927D]/5 rounded-full blur-[140px] pointer-events-none" />
 
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-14 max-w-3xl mx-auto">
           <span className="inline-block py-1 px-4 rounded-full bg-[#FF6B00]/10 border border-[#FF6B00]/30 text-[#FF6B00] text-xs font-bold tracking-widest uppercase mb-4">
             Guides & News
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-black tracking-tight mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#2F3136] tracking-tight mb-4">
             Latest Articles
           </h2>
-          <p className="text-stone-600 text-base sm:text-lg">
+          <p className="text-[#68717A] text-base sm:text-lg">
             Stay up to date with the latest IPTV guides, tips, and insights.
           </p>
         </div>
@@ -36,18 +36,18 @@ export default function LatestArticlesSection() {
                     src={post.coverImage || "/blog/high-quality-iptv-service.webp"}
                   />
                   <div className="absolute bottom-0 w-full h-1/2 bg-gradient-to-t from-white to-transparent"></div>
-                  <span className="absolute top-4 left-4 px-3 py-1 bg-white backdrop-blur-md text-black rounded-full text-xs font-bold border border-black/10">
+                  <span className="absolute top-4 left-4 px-3 py-1 bg-white backdrop-blur-md text-[#2F3136] rounded-full text-xs font-bold border border-black/10">
                     {post.category}
                   </span>
                 </div>
                 <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-lg font-bold leading-snug text-black group-hover:text-[#FF6B00] transition-colors mb-3 line-clamp-2">
+                  <h3 className="text-lg font-bold leading-snug text-[#2F3136] group-hover:text-[#FF6B00] transition-colors mb-3 line-clamp-2">
                     {post.title}
                   </h3>
-                  <p className="text-stone-600 text-sm mb-6 line-clamp-3 flex-grow leading-relaxed">
+                  <p className="text-[#68717A] text-sm mb-6 line-clamp-3 flex-grow leading-relaxed">
                     {post.description}
                   </p>
-                  <div className="mt-auto text-stone-500 text-xs font-medium flex items-center justify-between border-t border-black/10 pt-4">
+                  <div className="mt-auto text-[#68717A] text-xs font-medium flex items-center justify-between border-t border-black/10 pt-4">
                     <span>{post.date}</span>
                     <span className="flex items-center text-[#FF6B00] group-hover:translate-x-1 transition-transform font-bold text-sm">
                       Read More
@@ -62,7 +62,7 @@ export default function LatestArticlesSection() {
 
         <div className="text-center">
           <Link href="/blog">
-            <button className="bg-black/5 hover:bg-[#FF6B00] text-black border border-black/15 hover:border-[#FF6B00] px-8 py-3.5 rounded-full font-bold text-sm transition-all duration-300 flex items-center justify-center mx-auto gap-2">
+            <button className="bg-[#2F3136]/5 hover:bg-[#FF6B00] text-white border border-black/15 hover:border-[#FF6B00] px-8 py-3.5 rounded-full font-bold text-sm transition-all duration-300 flex items-center justify-center mx-auto gap-2">
               View All Articles
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>

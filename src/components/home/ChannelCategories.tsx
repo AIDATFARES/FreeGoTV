@@ -26,7 +26,7 @@ export default function ChannelCategories() {
   ];
 
   return (
-    <section className="relative z-10 bg-white py-16 text-black sm:py-24">
+    <section className="relative z-10 bg-white py-16 text-[#2F3136] sm:py-24">
       <div className="mx-auto max-w-[1200px] px-5">
         
         {/* Heading above Red Box */}
@@ -36,7 +36,7 @@ export default function ChannelCategories() {
             <span className="text-[#FF6B00] text-sm font-bold tracking-[0.2em] uppercase">Premium Quality</span>
             <span className="h-px w-8 bg-gradient-to-l from-transparent to-[#FF6B00]"></span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-black text-black tracking-tight leading-tight animate-fade-up">
+          <h2 className="text-3xl md:text-5xl font-black text-[#2F3136] tracking-tight leading-tight animate-fade-up">
             We Are Proud to Offer the <br className="hidden md:block" />
             <span className="text-[#FF6B00]">Premium IPTV Service.</span>
           </h2>
@@ -55,7 +55,7 @@ export default function ChannelCategories() {
                   <div className="mb-6 inline-flex p-4 rounded-full bg-white shadow-sm">
                     <Icon className="w-8 h-8 text-[#FF6B00]" strokeWidth={2} />
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-4">{feature.title}</h3>
+                  <h3 className="text-xl font-bold text-[#2F3136] mb-4">{feature.title}</h3>
                   <p className="text-red-50 text-[15px] leading-relaxed max-w-[280px] mx-auto font-medium">
                     {feature.desc}
                   </p>

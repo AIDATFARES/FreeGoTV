@@ -36,7 +36,7 @@ export default function Navbar() {
       }`}
     >
       {/* Promotional Top Bar */}
-      <div className="w-full bg-[#FF6B00] text-black py-2 overflow-hidden flex items-center shadow-sm">
+      <div className="w-full bg-[#FF6B00] text-[#2F3136] py-2 overflow-hidden flex items-center shadow-sm">
         <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
           {[...Array(6)].map((_, i) => (
             <span key={i} className="flex items-center gap-2 px-8 text-xs sm:text-sm font-semibold tracking-wide whitespace-nowrap">
@@ -45,7 +45,7 @@ export default function Navbar() {
                 href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV." 
                 target="_blank" 
                 rel="noreferrer"
-                className="inline-block ml-2 bg-black text-white px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold hover:bg-white hover:text-black transition-colors shadow-sm"
+                className="inline-block ml-2 bg-[#2F3136] text-[#2F3136] px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold hover:bg-white hover:text-white transition-colors shadow-sm"
               >
                 Claim Now
               </a>
@@ -62,22 +62,22 @@ export default function Navbar() {
 
         {/* Nav Links */}
         <nav className="hidden lg:flex relative z-10 items-center gap-6 xl:gap-8 px-6 text-sm font-semibold">
-          <Link href="/" onClick={handleLogoClick} className="text-stone-700 hover:text-black transition-colors duration-200">
+          <Link href="/" onClick={handleLogoClick} className="text-stone-700 hover:text-[#2F3136] transition-colors duration-200">
             Home
           </Link>
-          <Link href="/pricing" className="text-stone-700 hover:text-black transition-colors duration-200">
+          <Link href="/pricing" className="text-stone-700 hover:text-[#2F3136] transition-colors duration-200">
             Pricing
           </Link>
-          <Link href="/how-it-works" className="text-stone-700 hover:text-black transition-colors duration-200 whitespace-nowrap">
+          <Link href="/how-it-works" className="text-stone-700 hover:text-[#2F3136] transition-colors duration-200 whitespace-nowrap">
             How It Works
           </Link>
-          <Link href="/channels" className="text-stone-700 hover:text-black transition-colors duration-200 whitespace-nowrap">
+          <Link href="/channels" className="text-stone-700 hover:text-[#2F3136] transition-colors duration-200 whitespace-nowrap">
             Channels List
           </Link>
-          <Link href="/contact" className="text-stone-700 hover:text-black transition-colors duration-200 whitespace-nowrap">
+          <Link href="/contact" className="text-stone-700 hover:text-[#2F3136] transition-colors duration-200 whitespace-nowrap">
             Contact Support
           </Link>
-          <Link href="/reseller" className="text-stone-700 hover:text-black transition-colors duration-200 whitespace-nowrap">
+          <Link href="/reseller" className="text-stone-700 hover:text-[#2F3136] transition-colors duration-200 whitespace-nowrap">
             Reseller
           </Link>
         </nav>
@@ -88,7 +88,7 @@ export default function Navbar() {
             href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV."
             target="_blank"
             rel="noreferrer"
-            className="px-6 py-2.5 rounded-full text-sm font-bold text-black bg-[#FF6B00] hover:bg-[#E66000] transition-all duration-300 shadow-md hover:shadow-[0_0_20px_rgba(255,107,0,0.4)]"
+            className="px-6 py-2.5 rounded-full text-sm font-bold text-[#2F3136] bg-[#FF6B00] hover:bg-[#E66000] transition-all duration-300 shadow-md hover:shadow-[0_0_20px_rgba(255,107,0,0.4)]"
           >
             Get Started
           </a>
@@ -97,7 +97,7 @@ export default function Navbar() {
         {/* MOBILE MENU BUTTON */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="lg:hidden text-black p-2 rounded-lg bg-black/5 hover:bg-black/10 transition-colors z-20"
+          className="lg:hidden text-[#2F3136] p-2 rounded-lg bg-[#2F3136]/5 hover:bg-[#2F3136]/10 transition-colors z-20"
           aria-label="Toggle navigation menu"
         >
           {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -108,19 +108,19 @@ export default function Navbar() {
       {mobileMenuOpen && (
         <div className="lg:hidden bg-white border-b border-black/10 px-6 py-6 space-y-4 animate-in slide-in-from-top duration-300">
           <nav className="flex flex-col space-y-3 font-semibold text-stone-700">
-            <Link href="/" onClick={handleLogoClick} className="hover:text-black py-1">Home</Link>
-            <Link href="/pricing" onClick={() => setMobileMenuOpen(false)} className="hover:text-black py-1">Pricing</Link>
-            <Link href="/how-it-works" onClick={() => setMobileMenuOpen(false)} className="hover:text-black py-1">How It Works</Link>
-            <Link href="/channels" onClick={() => setMobileMenuOpen(false)} className="hover:text-black py-1">Channels List</Link>
-            <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className="hover:text-black py-1">Contact Support</Link>
-            <Link href="/reseller" onClick={() => setMobileMenuOpen(false)} className="hover:text-black py-1">Reseller</Link>
+            <Link href="/" onClick={handleLogoClick} className="hover:text-[#2F3136] py-1">Home</Link>
+            <Link href="/pricing" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#2F3136] py-1">Pricing</Link>
+            <Link href="/how-it-works" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#2F3136] py-1">How It Works</Link>
+            <Link href="/channels" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#2F3136] py-1">Channels List</Link>
+            <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#2F3136] py-1">Contact Support</Link>
+            <Link href="/reseller" onClick={() => setMobileMenuOpen(false)} className="hover:text-[#2F3136] py-1">Reseller</Link>
           </nav>
           <div className="pt-4 border-t border-black/10 flex flex-col gap-3">
             <a
               href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV."
               target="_blank"
               rel="noreferrer"
-              className="w-full text-center py-3 rounded-full text-sm font-bold text-black bg-[#FF6B00] shadow-lg"
+              className="w-full text-center py-3 rounded-full text-sm font-bold text-[#2F3136] bg-[#FF6B00] shadow-lg"
             >
               Get Started
             </a>

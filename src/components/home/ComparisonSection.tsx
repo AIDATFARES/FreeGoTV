@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function ComparisonSection() {
   return (
-    <section className="bg-white text-black relative z-10 border-b border-black/10 overflow-hidden py-20">
+    <section className="bg-white text-[#2F3136] relative z-10 border-b border-black/10 overflow-hidden py-20">
       <div className="max-w-[1240px] mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs font-bold uppercase tracking-widest text-[#FF6B00] mb-2 block">
             IPTV VS CABLE TV
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black tracking-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#2F3136] tracking-tight">
             Why FreeGoTV is the Best Cable TV Alternative
           </h2>
           <p className="text-stone-700 text-sm sm:text-base mt-4 leading-relaxed max-w-2xl mx-auto">
@@ -25,7 +25,7 @@ export default function ComparisonSection() {
               className="w-14 bg-[#FF6B00] hover:bg-[#E66000] transition-colors flex items-center justify-center group cursor-pointer shrink-0 border-r border-red-700/20 shadow-[inset_-4px_0_10px_rgba(0,0,0,0.1)]"
               title="Learn How It Works"
             >
-              <span className="-rotate-90 text-white font-black tracking-[0.2em] uppercase whitespace-nowrap text-xs sm:text-sm group-hover:scale-110 transition-transform">
+              <span className="-rotate-90 text-[#2F3136] font-black tracking-[0.2em] uppercase whitespace-nowrap text-xs sm:text-sm group-hover:scale-110 transition-transform">
                 How It Works
               </span>
             </Link>
@@ -33,10 +33,10 @@ export default function ComparisonSection() {
             <div className="flex-grow">
               {/* Table Header */}
               <div className="grid grid-cols-4 bg-stone-50 border-b border-stone-200">
-                <div className="p-6 text-sm font-bold text-stone-500 uppercase tracking-wider">Feature</div>
+                <div className="p-6 text-sm font-bold text-[#68717A] uppercase tracking-wider">Feature</div>
                 <div className="p-6 text-sm font-black text-[#FF6B00] uppercase tracking-wider text-center border-x border-stone-200 bg-red-50/50">FreeGoTV</div>
-                <div className="p-6 text-sm font-bold text-stone-500 uppercase tracking-wider text-center">Cable / Satellite</div>
-                <div className="p-6 text-sm font-bold text-stone-500 uppercase tracking-wider text-center border-l border-stone-200">Other IPTV</div>
+                <div className="p-6 text-sm font-bold text-[#68717A] uppercase tracking-wider text-center">Cable / Satellite</div>
+                <div className="p-6 text-sm font-bold text-[#68717A] uppercase tracking-wider text-center border-l border-stone-200">Other IPTV</div>
               </div>
 
               {/* Table Rows */}
@@ -54,13 +54,13 @@ export default function ComparisonSection() {
               ].map((row, idx) => (
                 <div key={idx} className={`grid grid-cols-4 border-b border-stone-100 hover:bg-stone-50 transition-colors ${idx === 9 ? 'border-b-0' : ''}`}>
                   <div className="p-5 text-sm font-bold text-stone-800 flex items-center">{row.feature}</div>
-                  <div className="p-5 text-sm font-bold text-black text-center flex items-center justify-center border-x border-stone-100 bg-red-50/30">
+                  <div className="p-5 text-sm font-bold text-[#2F3136] text-center flex items-center justify-center border-x border-stone-100 bg-red-50/30">
                     {row.freegotv}
                   </div>
-                  <div className="p-5 text-sm font-medium text-stone-500 text-center flex items-center justify-center">
+                  <div className="p-5 text-sm font-medium text-[#68717A] text-center flex items-center justify-center">
                     {row.cable}
                   </div>
-                  <div className="p-5 text-sm font-medium text-stone-500 text-center flex items-center justify-center border-l border-stone-100">
+                  <div className="p-5 text-sm font-medium text-[#68717A] text-center flex items-center justify-center border-l border-stone-100">
                     {row.other}
                   </div>
                 </div>
@@ -72,7 +72,7 @@ export default function ComparisonSection() {
         <div className="mt-12 text-center">
           <a
             href="#pricing"
-            className="inline-flex items-center justify-center bg-[#FF6B00] text-white font-bold px-10 py-4 rounded-md shadow-[0_4px_14px_rgba(255,107,0,0.3)] hover:bg-[#E66000] hover:shadow-[0_6px_20px_rgba(255,107,0,0.4)] transition-all hover:scale-105"
+            className="inline-flex items-center justify-center bg-[#FF6B00] text-[#2F3136] font-bold px-10 py-4 rounded-md shadow-[0_4px_14px_rgba(255,107,0,0.3)] hover:bg-[#E66000] hover:shadow-[0_6px_20px_rgba(255,107,0,0.4)] transition-all hover:scale-105"
           >
             View Plans & Pricing
           </a>

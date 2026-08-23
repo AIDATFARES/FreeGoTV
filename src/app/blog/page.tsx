@@ -101,7 +101,7 @@ export default function Blog() {
               type="email"
             />
             <button
-              className="bg-gradient-to-r from-primary-container to-secondary-container text-black font-title-md text-title-md px-8 py-3 rounded-lg whitespace-nowrap hover:opacity-90 transition-opacity"
+              className="bg-gradient-to-r from-primary-container to-secondary-container text-[#2F3136] font-title-md text-title-md px-8 py-3 rounded-lg whitespace-nowrap hover:opacity-90 transition-opacity"
               type="submit"
             >
               Subscribe

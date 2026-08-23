@@ -27,7 +27,7 @@ export default function FeaturesSection() {
       icon: ShieldCheck,
       title: "99.99% Server Uptime",
       desc: "Redundant global cloud network with failover nodes ensures non-stop broadcast reliability.",
-      color: "text-red-400",
+      color: "text-[#7D927D]",
     },
     {
       icon: Wifi,

@@ -163,7 +163,7 @@ export default function ChannelsPage() {
   }, [selectedTab, searchQuery]);
 
   return (
-    <main className="min-h-screen bg-white text-black pt-24 pb-24 relative overflow-hidden">
+    <main className="min-h-screen bg-white text-[#2F3136] pt-24 pb-24 relative overflow-hidden">
       {/* Background Decorative Glow */}
       <div className="absolute top-[10%] left-[5%] w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(255,107,0,0.06)_0%,transparent_65%)] rounded-full pointer-events-none z-0" />
       <div className="absolute top-[40%] right-[5%] w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(255,107,0,0.04)_0%,transparent_65%)] rounded-full pointer-events-none z-0" />
@@ -187,7 +187,7 @@ export default function ChannelsPage() {
             transition={{ delay: 0.1 }}
             className="mt-2 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight"
           >
-            <span className="block text-black">Popular FreeGoTV</span>
+            <span className="block text-[#2F3136]">Popular FreeGoTV</span>
             <span className="mt-1 block text-[#FF6B00]">Live Channels &amp; VOD.</span>
           </motion.h1>
 
@@ -217,24 +217,24 @@ export default function ChannelsPage() {
                   className="relative min-h-[240px] rounded-2xl border-2 border-stone-100 bg-white px-6 pb-6 pt-14 shadow-sm hover:border-[#FF6B00] hover:shadow-lg hover:shadow-[#FF6B00]/10 transition-all duration-300 group"
                 >
                   {/* Top Floating Badge Icon */}
-                  <span className="absolute left-1/2 top-0 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-4 border-white bg-[#FF6B00] text-white shadow-md shadow-[#FF6B00]/30 group-hover:scale-110 group-hover:bg-red-500 transition-transform">
+                  <span className="absolute left-1/2 top-0 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-4 border-white bg-[#FF6B00] text-[#2F3136] shadow-md shadow-[#FF6B00]/30 group-hover:scale-110 group-hover:bg-[#7D927D] transition-transform">
                     <Icon className="h-6 w-6" strokeWidth={2.5} />
                   </span>
 
                   {/* Optional Popular Tag */}
                   {category.tag && (
-                    <span className="absolute right-3 top-3 rounded-full bg-black px-2.5 py-0.5 text-[9px] font-black uppercase tracking-wider text-white shadow-sm">
+                    <span className="absolute right-3 top-3 rounded-full bg-[#2F3136] px-2.5 py-0.5 text-[9px] font-black uppercase tracking-wider text-white shadow-sm">
                       {category.tag}
                     </span>
                   )}
 
-                  <h2 className="text-center text-xl font-extrabold text-black tracking-wide">
+                  <h2 className="text-center text-xl font-extrabold text-[#2F3136] tracking-wide">
                     {category.title}
                   </h2>
 
                   <ul className="mt-4 space-y-2.5">
                     {category.items.map((item) => (
-                      <li key={item} className="flex items-start gap-2.5 text-xs sm:text-sm text-stone-600 leading-tight">
+                      <li key={item} className="flex items-start gap-2.5 text-xs sm:text-sm text-[#68717A] leading-tight">
                         <Check className="mt-0.5 h-4 w-4 shrink-0 text-[#FF6B00]" strokeWidth={2.5} />
                         <span>{item}</span>
                       </li>
@@ -242,7 +242,7 @@ export default function ChannelsPage() {
                   </ul>
 
                   <div className="mt-5 pt-4 border-t border-stone-100 flex items-center justify-between">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400">Total Available</span>
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-[#68717A]">Total Available</span>
                     <span className="text-xs font-black text-[#FF6B00]">{category.count}</span>
                   </div>
                 </motion.article>
@@ -260,24 +260,24 @@ export default function ChannelsPage() {
         <section className="bg-white rounded-3xl border-2 border-stone-100 p-6 sm:p-10 shadow-lg shadow-black/5">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6 mb-8">
             <div>
-              <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-black flex items-center gap-3">
+              <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-[#2F3136] flex items-center gap-3">
                 <Flame className="w-6 h-6 text-[#FF6B00]" />
                 Live Channel Directory Explorer
               </h2>
-              <p className="text-stone-600 text-xs sm:text-sm mt-1">
+              <p className="text-[#68717A] text-xs sm:text-sm mt-1">
                 Type a channel name or filter by category to inspect available streams.
               </p>
             </div>
 
             {/* Search Input */}
             <div className="relative w-full lg:w-80">
-              <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-stone-600" />
+              <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[#68717A]" />
               <input
                 type="text"
                 placeholder="Search channel or country..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-10 pr-4 py-2.5 rounded-full bg-stone-50 border border-stone-200 text-xs text-black placeholder-slate-400 focus:outline-none focus:border-[#FF6B00] focus:ring-1 focus:ring-[#FF6B00] transition-colors"
+                className="w-full pl-10 pr-4 py-2.5 rounded-full bg-stone-50 border border-stone-200 text-xs text-[#2F3136] placeholder-slate-400 focus:outline-none focus:border-[#FF6B00] focus:ring-1 focus:ring-[#FF6B00] transition-colors"
               />
             </div>
           </div>
@@ -290,8 +290,8 @@ export default function ChannelsPage() {
                 onClick={() => setSelectedTab(tab)}
                 className={`px-4 py-2 rounded-full text-xs font-extrabold uppercase tracking-wider transition-all ${
                   selectedTab === tab
-                    ? "bg-[#FF6B00] text-white shadow-md shadow-[#FF6B00]/20"
-                    : "bg-white text-stone-500 hover:text-black border border-stone-200"
+                    ? "bg-[#FF6B00] text-[#2F3136] shadow-md shadow-[#FF6B00]/20"
+                    : "bg-white text-[#68717A] hover:text-[#2F3136] border border-stone-200"
                 }`}
               >
                 {tab}
@@ -321,7 +321,7 @@ export default function ChannelsPage() {
                         alt={channel.country}
                         className="w-4 h-3 rounded-[2px] object-cover"
                       />
-                      <p className="text-xs font-bold text-black truncate group-hover:text-[#FF6B00]">
+                      <p className="text-xs font-bold text-[#2F3136] truncate group-hover:text-[#FF6B00]">
                         {channel.name}
                       </p>
                     </div>
@@ -346,14 +346,14 @@ export default function ChannelsPage() {
         <section className="mt-16 bg-[#FF6B00]/5 rounded-3xl border-2 border-[#FF6B00]/20 p-8 sm:p-12 text-center shadow-lg relative overflow-hidden">
           <div className="relative z-10 max-w-2xl mx-auto">
             <CirclePlay className="w-10 h-10 text-[#FF6B00] mx-auto mb-4 animate-bounce" />
-            <h2 className="text-3xl font-black uppercase text-black">Ready to start watching?</h2>
-            <p className="mt-3 text-stone-600 text-sm sm:text-base leading-relaxed">
+            <h2 className="text-3xl font-black uppercase text-[#2F3136]">Ready to start watching?</h2>
+            <p className="mt-3 text-[#68717A] text-sm sm:text-base leading-relaxed">
               Choose your subscription plan to receive instant access credentials on WhatsApp within minutes.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/pricing"
-                className="px-8 py-4 rounded-full bg-black text-white font-black text-sm uppercase tracking-wider hover:bg-[#FF6B00] transition-colors"
+                className="px-8 py-4 rounded-full bg-[#2F3136] text-white font-black text-sm uppercase tracking-wider hover:bg-[#FF6B00] transition-colors"
               >
                 View IPTV Subscription Plans
               </Link>
@@ -361,7 +361,7 @@ export default function ChannelsPage() {
                 href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV."
                 target="_blank"
                 rel="noreferrer"
-                className="px-8 py-4 rounded-full bg-white border-2 border-stone-200 text-black font-black text-sm uppercase tracking-wider hover:border-[#FF6B00] transition-colors"
+                className="px-8 py-4 rounded-full bg-white border-2 border-stone-200 text-[#2F3136] font-black text-sm uppercase tracking-wider hover:border-[#FF6B00] transition-colors"
               >
                 Get Free Trial via WhatsApp
               </a>
