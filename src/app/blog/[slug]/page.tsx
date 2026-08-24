@@ -178,6 +178,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           prose-th:text-on-surface prose-th:border-b prose-th:border-outline-variant prose-th:py-2
           prose-td:border-b prose-td:border-outline-variant/50 prose-td:py-2"
         >
+          <BlogOfferCard />
+
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
             {contentPart1}
           </ReactMarkdown>
