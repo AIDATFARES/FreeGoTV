@@ -658,6 +658,6 @@ The most useful diagnostic sequence is:
 **Channel → App → Device → Display → Decoder → Network → Provider**
 
 By following these steps, you can quickly identify the root cause. With a premium provider like **FreeGoTV**, you can expect high reliability and extensive compatibility across a wide range of devices, ensuring you spend more time watching and less time troubleshooting.
-\`
+`
   }
 ];
