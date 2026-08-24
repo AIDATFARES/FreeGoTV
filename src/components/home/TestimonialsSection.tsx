@@ -16,8 +16,8 @@ const reviewImages = [
 const metrics = [
   { icon: Star, value: "4.9 / 5.0", label: "Average rating", tone: "text-amber-300" },
   { icon: Users, value: "14K+", label: "Happy customers", tone: "text-blue-300" },
-  { icon: Tv, value: "50K+", label: "Live channels", tone: "text-red-300" },
-  { icon: Globe2, value: "80+", label: "Countries supported", tone: "text-red-300" },
+  { icon: Tv, value: "50K+", label: "Live channels", tone: "text-sky-400" },
+  { icon: Globe2, value: "80+", label: "Countries supported", tone: "text-sky-400" },
   { icon: RefreshCw, value: "94%", label: "Renewal rate", tone: "text-pink-300" },
 ];
 
@@ -30,14 +30,14 @@ export default function TestimonialsSection() {
           <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-400/40 bg-amber-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.15em] text-amber-300">
             <Trophy className="h-3 w-3" /> TOP RATED IPTV PROVIDER
           </span>
-          <h2 className="mt-6 text-4xl font-black uppercase leading-[0.98] tracking-tight text-[#2F3136] sm:text-5xl animate-fade-up">
-            <span className="block">Trusted by Thousands of</span>
-            <span className="mt-1 block bg-gradient-to-r from-[#5B7083] via-[#6C8180] to-[#7D927D] bg-clip-text text-transparent">
-              Happy Cord-Cutters
+          <h2 className="mt-6 text-4xl font-black uppercase leading-[0.98] tracking-tight text-[#0F172A] sm:text-5xl animate-fade-up">
+            <span className="block">Join Thousands of Highly</span>
+            <span className="mt-1 block bg-gradient-to-r from-[#14B8A6] via-[#0D9488] to-[#0EA5E9] bg-clip-text text-transparent">
+              Satisfied FreeGoTV IPTV Streamers
             </span>
           </h2>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#68717A] animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            Read real reviews from our global community. Discover why FreeGoTV is rated as the most reliable, buffer-free IPTV service for live sports, movies, and international channels.
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#64748B] animate-fade-up" style={{ animationDelay: '0.1s' }}>
+            Discover why thousands of users worldwide have made FreeGoTV their primary entertainment source. Read authentic reviews highlighting our unparalleled stability, comprehensive live sports coverage, and exceptional 4K visual quality.
           </p>
         </div>
 
@@ -51,8 +51,8 @@ export default function TestimonialsSection() {
                 style={{ animationDelay: `${0.2 + (index * 0.06)}s`, animationFillMode: 'both' }}
               >
                 <Icon className={`mx-auto h-4 w-4 ${metric.tone}`} />
-                <span className="mt-2 block text-base font-bold text-[#2F3136]">{metric.value}</span>
-                <small className="mt-0.5 block text-[8px] font-bold uppercase tracking-wide text-[#68717A]">
+                <span className="mt-2 block text-base font-bold text-[#0F172A]">{metric.value}</span>
+                <small className="mt-0.5 block text-[8px] font-bold uppercase tracking-wide text-[#64748B]">
                   {metric.label}
                 </small>
               </div>
@@ -88,19 +88,19 @@ export default function TestimonialsSection() {
             href="https://wa.me/213552069874?text=Hello%2C%20I%20would%20like%20a%20free%20trial%20for%20freegotv%20IPTV."
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#5B7083] to-[#7D927D] px-7 py-4 text-sm font-extrabold text-white shadow-[0_0_28px_rgba(255,107,0,0.42)] transition-transform hover:-translate-y-0.5 hover:scale-105"
+            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#14B8A6] to-[#0EA5E9] px-7 py-4 text-sm font-extrabold text-white shadow-[0_0_28px_rgba(14,165,233,0.42)] transition-transform hover:-translate-y-0.5 hover:scale-105"
           >
             <Trophy className="h-4 w-4" /> Get Your Free Trial
           </a>
-          <div className="mt-7 flex flex-wrap justify-center gap-x-6 gap-y-2 text-[10px] text-[#68717A]">
+          <div className="mt-7 flex flex-wrap justify-center gap-x-6 gap-y-2 text-[10px] text-[#64748B]">
             <span className="flex items-center gap-1.5">
-              <Headphones className="h-3 w-3 text-[#7D927D]" /> Instant WhatsApp delivery
+              <Headphones className="h-3 w-3 text-[#0EA5E9]" /> Instant WhatsApp delivery
             </span>
             <span className="flex items-center gap-1.5">
-              <Tv className="h-3 w-3 text-red-300" /> Works on all devices
+              <Tv className="h-3 w-3 text-sky-400" /> Works on all devices
             </span>
             <span className="flex items-center gap-1.5">
-              <ShieldCheck className="h-3 w-3 text-red-300" /> 99.9% uptime guaranteed
+              <ShieldCheck className="h-3 w-3 text-sky-400" /> 99.9% uptime guaranteed
             </span>
           </div>
         </div>

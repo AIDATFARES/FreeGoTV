@@ -22,20 +22,20 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "FreeGoTV - Premium 4K Streaming Services",
-  description: "Ultimate 4K IPTV Experience. Access +50,000 Channels, +120,000 Films & Series, and 200,000+ VODs.",
+  title: "Premium 4K IPTV Subscription – Zero Buffering | FreeGoTV",
+  description: "Experience the ultimate 4K IPTV subscription with FreeGoTV. Stream 50,000+ live sports, movies & global channels with zero buffering. Start your free trial today!",
   metadataBase: new URL("https://www.freegotv-iptv.shop"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "FreeGoTV - Premium 4K Streaming",
-    description: "Ultimate 4K IPTV Experience. Access +50,000 Channels, +120,000 Films & Series, and 200,000+ VODs.",
+    title: "Premium 4K IPTV Subscription – Zero Buffering | FreeGoTV",
+    description: "Experience the ultimate 4K IPTV subscription with FreeGoTV. Stream 50,000+ live sports, movies & global channels with zero buffering. Start your free trial today!",
     url: "https://www.freegotv-iptv.shop",
     siteName: "FreeGoTV",
     images: [
       {
-        url: "/og-image-v2.webp",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "FreeGoTV Premium IPTV Service",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "FreeGoTV - Premium 4K Streaming",
-    description: "Ultimate 4K IPTV Experience. Access +50,000 Channels, +120,000 Films & Series, and 200,000+ VODs.",
-    images: ["/og-image-v2.webp"],
+    title: "Premium 4K IPTV Subscription – Zero Buffering | FreeGoTV",
+    description: "Experience the ultimate 4K IPTV subscription with FreeGoTV. Stream 50,000+ live sports, movies & global channels with zero buffering. Start your free trial today!",
+    images: ["/og-image.jpg"],
   },
 };
 
@@ -75,57 +75,57 @@ export default function RootLayout({
               <p className="max-w-[285px] whitespace-normal break-normal text-sm leading-6 text-stone-700">
                 © 2024 freegotv. Premium 4K IPTV Streaming Services. All rights reserved.
               </p>
-              <a href="https://wa.me/213552069874" target="_blank" rel="noreferrer" className="flex max-w-[270px] items-center gap-3 rounded-2xl border border-[#7D927D]/30 bg-[#7D927D]/[0.08] p-3.5 transition-colors hover:bg-[#7D927D]/[0.15] group">
-                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#7D927D] text-[#2F3136] shadow-lg shadow-red-500/20 transition-transform group-hover:scale-105">
+              <a href="https://wa.me/213552069874" target="_blank" rel="noreferrer" className="flex max-w-[270px] items-center gap-3 rounded-2xl border border-[#0EA5E9]/30 bg-[#0EA5E9]/[0.08] p-3.5 transition-colors hover:bg-[#0EA5E9]/[0.15] group">
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#0EA5E9] text-[#0F172A] shadow-lg shadow-sky-500/20 transition-transform group-hover:scale-105">
                   <svg className="h-5 w-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.489-1.761-1.663-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
                   </svg>
                 </div>
                 <span>
-                  <span className="block text-[10px] font-bold uppercase tracking-widest text-[#7D927D]">Fast support</span>
-                  <span className="block whitespace-nowrap text-base font-bold text-[#2F3136]">WhatsApp</span>
+                  <span className="block text-[10px] font-bold uppercase tracking-widest text-[#0EA5E9]">Fast support</span>
+                  <span className="block whitespace-nowrap text-base font-bold text-[#0F172A]">WhatsApp</span>
                 </span>
               </a>
-              <p className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-wider text-[#68717A]"><span className="h-2 w-2 rounded-full bg-[#7D927D] animate-pulse" /> All servers online · 99.9% uptime</p>
+              <p className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-wider text-[#64748B]"><span className="h-2 w-2 rounded-full bg-[#0EA5E9] animate-pulse" /> All servers online · 99.9% uptime</p>
             </div>
             
             <div className="col-span-1 min-w-0 space-y-6">
-              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-stone-700"><span className="border-b-2 border-[#7D927D] pb-1.5">NAVIGATION</span></p>
+              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-stone-700"><span className="border-b-2 border-[#0EA5E9] pb-1.5">NAVIGATION</span></p>
               <ul className="space-y-3 font-body-sm text-sm">
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/">Home</Link></li>
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/pricing">Pricing</Link></li>
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/contact">Contact</Link></li>
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/#how-it-works">How It Works</Link></li>
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/faq">FAQ</Link></li>
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/blog">Blog</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/">Home</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/pricing">Pricing</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/contact">Contact</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/#how-it-works">How It Works</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/faq">FAQ</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/blog">Blog</Link></li>
               </ul>
             </div>
             
             <div className="col-span-1 min-w-0 space-y-6">
-              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-stone-700"><span className="border-b-2 border-[#7D927D] pb-1.5">SERVICE</span></p>
+              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-stone-700"><span className="border-b-2 border-[#0EA5E9] pb-1.5">SERVICE</span></p>
               <ul className="space-y-3 font-body-sm text-sm">
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/pricing">Get Started</Link></li>
-                <li><a className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="https://wa.me/213552069874" target="_blank" rel="noreferrer">WhatsApp</a></li>
-                <li><a className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="mailto:support@freegotv-iptv.shop">Email</a></li>
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/channels">Channels</Link></li>
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/installation">Setup Guide</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/pricing">Get Started</Link></li>
+                <li><a className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="https://wa.me/213552069874" target="_blank" rel="noreferrer">WhatsApp</a></li>
+                <li><a className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="mailto:support@freegotv-iptv.shop">Email</a></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/channels">Channels</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/installation">Setup Guide</Link></li>
               </ul>
             </div>
             
             <div className="col-span-1 min-w-0 space-y-6">
-              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-stone-700"><span className="border-b-2 border-[#7D927D] pb-1.5">LEGAL</span></p>
+              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-stone-700"><span className="border-b-2 border-[#0EA5E9] pb-1.5">LEGAL</span></p>
               <ul className="space-y-3 text-sm">
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/privacy-policy">Privacy Policy</Link></li>
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/refund-policy">Refund Policy</Link></li>
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="#">Disclaimer</Link></li>
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="/dmca">DMCA</Link></li>
-                <li><Link prefetch={false} className="text-[#68717A] transition-colors hover:text-[#2F3136]" href="#">Cookie Policy</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/privacy-policy">Privacy Policy</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/refund-policy">Refund Policy</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="#">Disclaimer</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="/dmca">DMCA</Link></li>
+                <li><Link prefetch={false} className="text-[#64748B] transition-colors hover:text-[#0F172A]" href="#">Cookie Policy</Link></li>
               </ul>
             </div>
             
             <div className="col-span-1 min-w-0 space-y-6">
-              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-stone-700"><span className="border-b-2 border-[#7D927D] pb-1.5">PAYMENT</span></p>
-              <ul className="space-y-3 text-sm text-[#68717A]">
+              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-stone-700"><span className="border-b-2 border-[#0EA5E9] pb-1.5">PAYMENT</span></p>
+              <ul className="space-y-3 text-sm text-[#64748B]">
                 <li>PayPal</li>
                 <li>Credit Card</li>
                 <li>Bitcoin</li>
@@ -133,13 +133,13 @@ export default function RootLayout({
               </ul>
             </div>
             
-            <div className="col-span-2 mt-8 flex flex-col gap-6 border-t border-black/10 pt-8 text-xs text-[#68717A] sm:col-span-4 md:flex-row md:items-center md:justify-between xl:col-span-5">
+            <div className="col-span-2 mt-8 flex flex-col gap-6 border-t border-black/10 pt-8 text-xs text-[#64748B] sm:col-span-4 md:flex-row md:items-center md:justify-between xl:col-span-5">
               <div className="flex flex-wrap gap-3">
-                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#2F3136]/5 hover:text-white" href="/privacy-policy">Privacy Policy</Link>
-                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#2F3136]/5 hover:text-white" href="/refund-policy">Refund Policy</Link>
-                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#2F3136]/5 hover:text-white" href="#">Disclaimer</Link>
-                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#2F3136]/5 hover:text-white" href="/dmca">DMCA</Link>
-                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#2F3136]/5 hover:text-white" href="#">Cookie Policy</Link>
+                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#0F172A]/5 hover:text-white" href="/privacy-policy">Privacy Policy</Link>
+                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#0F172A]/5 hover:text-white" href="/refund-policy">Refund Policy</Link>
+                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#0F172A]/5 hover:text-white" href="#">Disclaimer</Link>
+                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#0F172A]/5 hover:text-white" href="/dmca">DMCA</Link>
+                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#0F172A]/5 hover:text-white" href="#">Cookie Policy</Link>
               </div>
             </div>
           </div>

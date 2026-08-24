@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Tv, Film, ShieldCheck, Zap, Headphones } from "lucide-react";
 
 export default function TopFeatureBar() {
   const stats = [
@@ -11,66 +10,17 @@ export default function TopFeatureBar() {
     { value: 50000, label: "Channels", prefix: "+", suffix: "" },
   ];
 
-  const highlights = [
-    {
-      icon: Tv,
-      title: "50,000+ Channels",
-      desc: "150+ Countries 🇺🇸🇬🇧🇨🇦",
-    },
-    {
-      icon: Film,
-      title: "200,000+ VOD",
-      desc: "Movies & Series 4K",
-    },
-    {
-      icon: ShieldCheck,
-      title: "99.99% Uptime",
-      desc: "Anti-Buffer 10.0",
-    },
-    {
-      icon: Zap,
-      title: "60 FPS 4K Ultra HD",
-      desc: "Crystal Clear Sports",
-    },
-    {
-      icon: Headphones,
-      title: "24/7 Live Support",
-      desc: "WhatsApp & Email",
-    },
-  ];
-
   return (
-    <section className="bg-white border-y border-black/10 relative z-10">
+    <section className="bg-white relative z-20 w-full border-b border-black/10">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-2 gap-8 border-b border-black/[0.08] py-10 text-center sm:grid-cols-4 sm:gap-4 sm:py-12">
+        {/* Stats Section */}
+        <div className="grid grid-cols-2 gap-8 py-10 text-center sm:grid-cols-4 sm:gap-4 sm:py-12">
           {stats.map((stat) => (
             <div key={stat.label} className="transition-all duration-300">
               <AnimatedStat {...stat} />
               <span className="mt-1 block text-sm font-medium text-stone-700">{stat.label}</span>
             </div>
           ))}
-        </div>
-
-        <div className="grid grid-cols-2 gap-3 py-6 sm:grid-cols-3 sm:gap-4 lg:grid-cols-5">
-          {highlights.map((item, index) => {
-            const Icon = item.icon;
-            return (
-              <div
-                key={index}
-                className="bg-white/90 border border-black/10 rounded-xl p-3.5 sm:p-4 flex items-center gap-3.5 hover:border-[#7D927D]/40 transition-all duration-300 group"
-              >
-                <div className="p-2.5 rounded-lg bg-[#7D927D]/10 border border-[#7D927D]/20 text-[#7D927D] group-hover:scale-110 transition-transform shrink-0">
-                  <Icon className="w-5 h-5" strokeWidth={2} />
-                </div>
-                <div className="min-w-0">
-                  <p className="text-xs sm:text-sm font-bold text-[#2F3136] leading-tight truncate">
-                    {item.title}
-                  </p>
-                  <p className="text-[11px] text-[#68717A] truncate mt-0.5">{item.desc}</p>
-                </div>
-              </div>
-            );
-          })}
         </div>
       </div>
     </section>
@@ -115,5 +65,5 @@ function AnimatedStat({ value, prefix, suffix }: { value: number; prefix: string
     return () => cancelAnimationFrame(frameId);
   }, [isInView, value, prefix, suffix]);
 
-  return <span className="block text-3xl font-extrabold tracking-tight text-[#2F3136] sm:text-4xl" ref={ref}>{prefix}0{suffix}</span>;
+  return <span className="block text-3xl font-extrabold tracking-tight text-[#0F172A] sm:text-4xl" ref={ref}>{prefix}0{suffix}</span>;
 }

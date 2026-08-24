@@ -4,9 +4,8 @@ import { ArrowRight, Check, MonitorSmartphone, ShieldCheck, Zap, Globe2, Headpho
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How It Works - FreeGoTV | Easy 3-Step Setup Guide",
-  description:
-    "Learn how to get started with FreeGoTV in 3 easy steps. Place your order, install on any device, and start streaming 50,000+ channels instantly.",
+  title: "How FreeGoTV Works – Easy 3-Step Setup Guide",
+  description: "Learn how to get started with FreeGoTV in 3 easy steps. Place your order, install our IPTV service on any device, and start streaming 50,000+ channels instantly.",
   alternates: {
     canonical: "/how-it-works",
   },
@@ -19,17 +18,17 @@ const steps = [
     description: (
       <>
         Choose the plan that suits you from our{" "}
-        <Link href="/pricing" className="text-[#FF6B00] font-semibold hover:text-red-700 transition-colors">
+        <Link href="/pricing" className="text-[#0EA5E9] font-semibold hover:text-teal-600 transition-colors">
           pricing plans
         </Link>
         , complete the payment, and receive your subscription details within 20 minutes by email or{" "}
-        <Link href="/contact" className="text-[#FF6B00] font-semibold hover:text-red-700 transition-colors">
+        <Link href="/contact" className="text-[#0EA5E9] font-semibold hover:text-teal-600 transition-colors">
           WhatsApp
         </Link>
         .
       </>
     ),
-    image: "/step-1-order-v2.webp",
+    image: "/step-1-order-ai.png",
     imageAlt: "Place your order online",
     align: "left" as const,
   },
@@ -39,13 +38,13 @@ const steps = [
     description: (
       <>
         Follow our step-by-step{" "}
-        <Link href="/installation" className="text-[#FF6B00] font-semibold hover:text-red-700 transition-colors">
+        <Link href="/installation" className="text-[#0EA5E9] font-semibold hover:text-teal-600 transition-colors">
           installation guide
         </Link>{" "}
         to configure IPTV on Smart TV, Firestick, Android, iOS, and PC effortlessly.
       </>
     ),
-    image: "/step-2-setup-v2.webp",
+    image: "/step-2-setup-ai.png",
     imageAlt: "Instant installation on any device",
     align: "right" as const,
   },
@@ -55,13 +54,13 @@ const steps = [
     description: (
       <>
         Stream all your favorite live sports, 4K movies, and premium channels from our complete{" "}
-        <Link href="/channels" className="text-[#FF6B00] font-semibold hover:text-red-700 transition-colors">
+        <Link href="/channels" className="text-[#0EA5E9] font-semibold hover:text-teal-600 transition-colors">
           channels catalog
         </Link>
         .
       </>
     ),
-    image: "/step-3-watch-v2.webp",
+    image: "/step-3-watch-ai.png",
     imageAlt: "Watch and enjoy live TV",
     align: "left" as const,
   },
@@ -105,19 +104,19 @@ export default function HowItWorksPage() {
     <main className="bg-white min-h-screen">
       {/* ─── Hero Header ─── */}
       <section className="relative bg-white pt-16 pb-20 overflow-hidden border-b border-stone-100">
-        <div className="absolute inset-0 bg-gradient-to-b from-red-50/60 to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-sky-50/60 to-transparent pointer-events-none" />
         <div className="relative mx-auto max-w-4xl px-6 text-center">
-          <span className="inline-flex rounded-full border border-[#7D927D]/30 bg-[#7D927D]/10 px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#7D927D]">
+          <span className="inline-flex rounded-full border border-[#0EA5E9]/30 bg-[#0EA5E9]/10 px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#0EA5E9]">
             Easy 3-Step Process
           </span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05]">
-            <span className="text-[#2F3136]">How Does It Work?</span>
+            <span className="text-[#0F172A]">How Does It Work?</span>
             <br />
-            <span className="text-[#FF6B00]">FreeGoTV</span>
+            <span className="text-[#0EA5E9]">FreeGoTV</span>
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-[#68717A] leading-relaxed">
+          <p className="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-[#64748B] leading-relaxed">
             Get your{" "}
-            <Link href="/pricing" className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors">
+            <Link href="/pricing" className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors">
               IPTV subscription
             </Link>{" "}
             in 3 easy steps. Choose the right plan, complete the payment, and receive your login details. Within minutes you can enjoy your favorite programs.
@@ -125,13 +124,13 @@ export default function HowItWorksPage() {
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/pricing"
-              className="inline-flex items-center justify-center gap-2 bg-[#FF6B00] text-[#2F3136] font-bold px-8 py-3.5 rounded-md shadow-[0_4px_14px_rgba(255,107,0,0.3)] hover:bg-[#E66000] hover:shadow-[0_6px_20px_rgba(255,107,0,0.4)] transition-all"
+              className="inline-flex items-center justify-center gap-2 bg-[#14B8A6] text-[#0F172A] font-bold px-8 py-3.5 rounded-md shadow-[0_4px_14px_rgba(14,165,233,0.3)] hover:bg-[#0C8CE9] hover:shadow-[0_6px_20px_rgba(14,165,233,0.4)] transition-all"
             >
               View Plans <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
               href="/installation"
-              className="inline-flex items-center justify-center gap-2 border border-red-200 bg-white text-[#7D927D] font-bold px-8 py-3.5 rounded-md hover:bg-red-50 transition-all"
+              className="inline-flex items-center justify-center gap-2 border border-sky-200 bg-white text-[#0EA5E9] font-bold px-8 py-3.5 rounded-md hover:bg-sky-50 transition-all"
             >
               Installation Guide
             </Link>
@@ -143,13 +142,13 @@ export default function HowItWorksPage() {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-[960px] px-6 relative">
           {/* Vertical Dashed Center Line */}
-          <div className="absolute left-1/2 top-0 bottom-0 -translate-x-1/2 w-0.5 border-l-2 border-dashed border-red-200 hidden md:block" />
+          <div className="absolute left-1/2 top-0 bottom-0 -translate-x-1/2 w-0.5 border-l-2 border-dashed border-sky-200 hidden md:block" />
 
           {steps.map((step, i) => (
             <div key={i} className={`relative ${i < steps.length - 1 ? "mb-20" : ""}`}>
               {/* Step Badge */}
               <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-4 z-20 flex justify-center mb-6 md:mb-0">
-                <span className="bg-[#FF6B00] text-[#2F3136] font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.4)]">
+                <span className="bg-[#14B8A6] text-[#0F172A] font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(14,165,233,0.4)]">
                   {step.badge}
                 </span>
               </div>
@@ -161,8 +160,8 @@ export default function HowItWorksPage() {
                     step.align === "right" ? "order-1 md:order-2" : ""
                   }`}
                 >
-                  <h3 className="text-xl font-extrabold text-[#FF6B00] mb-3">{step.title}</h3>
-                  <p className="text-[#68717A] text-sm leading-relaxed">{step.description}</p>
+                  <h3 className="text-xl font-extrabold text-[#0EA5E9] mb-3">{step.title}</h3>
+                  <p className="text-[#64748B] text-sm leading-relaxed">{step.description}</p>
                 </div>
 
                 {/* Image */}
@@ -189,12 +188,12 @@ export default function HowItWorksPage() {
       <section className="py-20 bg-[#f8fafc] border-t border-stone-100">
         <div className="mx-auto max-w-[1200px] px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#FF6B00] tracking-tight italic">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#0EA5E9] tracking-tight italic">
               Getting Started with FreeGoTV Is Easy
             </h2>
-            <p className="text-[#68717A] text-sm sm:text-base mt-4 leading-relaxed">
+            <p className="text-[#64748B] text-sm sm:text-base mt-4 leading-relaxed">
               Enjoy high quality IPTV streaming with FreeGoTV. Watch{" "}
-              <Link href="/channels" className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors">
+              <Link href="/channels" className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors">
                 live TV channels
               </Link>
               , movies, and sports anytime, anywhere.
@@ -206,7 +205,7 @@ export default function HowItWorksPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
               <div className="overflow-hidden rounded-2xl border border-stone-100 shadow-sm">
                 <Image
-                  src="/getting-started-1.webp"
+                  src="/features-1-ai.png"
                   alt="Complete IPTV Subscription Experience"
                   width={600}
                   height={400}
@@ -214,18 +213,18 @@ export default function HowItWorksPage() {
                 />
               </div>
               <div className="space-y-4">
-                <h3 className="text-2xl sm:text-3xl font-extrabold text-[#FF6B00] leading-snug">
-                  <Link href="/pricing" className="hover:text-[#7D927D] transition-colors">
+                <h3 className="text-2xl sm:text-3xl font-extrabold text-[#0EA5E9] leading-snug">
+                  <Link href="/pricing" className="hover:text-[#0EA5E9] transition-colors">
                     We Offer You A Complete IPTV Subscription Experience
                   </Link>
                 </h3>
-                <p className="text-[#68717A] text-sm sm:text-base leading-relaxed">
+                <p className="text-[#64748B] text-sm sm:text-base leading-relaxed">
                   Enjoy uninterrupted IPTV 4K/HD with an{" "}
-                  <Link href="/pricing" className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors">
+                  <Link href="/pricing" className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors">
                     IPTV subscription
                   </Link>{" "}
                   from FreeGoTV. Choose from 1, 3, 6 or 12 months packages and experience continuous entertainment with full access to our{" "}
-                  <Link href="/channels" className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors">
+                  <Link href="/channels" className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors">
                     streaming library
                   </Link>
                   .
@@ -236,18 +235,18 @@ export default function HowItWorksPage() {
             {/* Feature Block 2 */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
               <div className="space-y-4 order-2 md:order-1">
-                <h3 className="text-2xl sm:text-3xl font-extrabold text-[#FF6B00] leading-snug">
-                  <Link href="/channels" className="hover:text-[#7D927D] transition-colors">
+                <h3 className="text-2xl sm:text-3xl font-extrabold text-[#0EA5E9] leading-snug">
+                  <Link href="/channels" className="hover:text-[#0EA5E9] transition-colors">
                     +50,000 Channels &amp; 200,000+ VODs With Our IPTV Smarters Pro
                   </Link>
                 </h3>
-                <p className="text-[#68717A] text-sm sm:text-base leading-relaxed">
+                <p className="text-[#64748B] text-sm sm:text-base leading-relaxed">
                   Unlock a world of entertainment with over{" "}
-                  <Link href="/channels" className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors">
+                  <Link href="/channels" className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors">
                     +50,000 live channels and +120,000 films &amp; series
                   </Link>{" "}
                   for the ultimate viewing experience. Check out our{" "}
-                  <Link href="/pricing" className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors">
+                  <Link href="/pricing" className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors">
                     subscription plans
                   </Link>{" "}
                   to start watching immediately.
@@ -255,7 +254,7 @@ export default function HowItWorksPage() {
               </div>
               <div className="overflow-hidden rounded-2xl border border-stone-100 shadow-sm order-1 md:order-2">
                 <Image
-                  src="/getting-started-2.webp"
+                  src="/features-2-ai.png"
                   alt="+50,000 Live Channels & VODs"
                   width={600}
                   height={400}
@@ -268,7 +267,7 @@ export default function HowItWorksPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
               <div className="overflow-hidden rounded-2xl border border-stone-100 shadow-sm">
                 <Image
-                  src="/getting-started-3.webp"
+                  src="/features-3-ai.png"
                   alt="Live TV and TV Guide EPG"
                   width={600}
                   height={400}
@@ -276,18 +275,18 @@ export default function HowItWorksPage() {
                 />
               </div>
               <div className="space-y-4">
-                <h3 className="text-2xl sm:text-3xl font-extrabold text-[#FF6B00] leading-snug">
-                  <Link href="/installation" className="hover:text-[#7D927D] transition-colors">
+                <h3 className="text-2xl sm:text-3xl font-extrabold text-[#0EA5E9] leading-snug">
+                  <Link href="/installation" className="hover:text-[#0EA5E9] transition-colors">
                     Live TV With IPTV Smarters Pro and TV Guide (EPG)
                   </Link>
                 </h3>
-                <p className="text-[#68717A] text-sm sm:text-base leading-relaxed">
+                <p className="text-[#64748B] text-sm sm:text-base leading-relaxed">
                   With FreeGoTV you get access to an interactive TV guide (EPG), Live TV, and replay options. Read our{" "}
-                  <Link href="/installation" className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors">
+                  <Link href="/installation" className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors">
                     IPTV setup guide
                   </Link>{" "}
                   or explore our{" "}
-                  <Link href="/faq" className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors">
+                  <Link href="/faq" className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors">
                     FAQ support
                   </Link>{" "}
                   for complete device instructions.
@@ -302,12 +301,12 @@ export default function HowItWorksPage() {
       <section className="py-20 bg-[#f8fafc] border-y border-stone-100">
         <div className="mx-auto max-w-[1200px] px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-[#2F3136] uppercase">
-              Getting Started Is <span className="text-[#FF6B00]">Easy</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-[#0F172A] uppercase">
+              Getting Started Is <span className="text-[#0EA5E9]">Easy</span>
             </h2>
-            <p className="mt-4 text-[#68717A] max-w-2xl mx-auto">
+            <p className="mt-4 text-[#64748B] max-w-2xl mx-auto">
               Enjoy high quality IPTV streaming with FreeGoTV. Watch{" "}
-              <Link href="/channels" className="text-[#FF6B00] font-semibold hover:text-[#7D927D] transition-colors">
+              <Link href="/channels" className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors">
                 live TV channels
               </Link>
               , movies, and sports anytime, anywhere.
@@ -321,16 +320,16 @@ export default function HowItWorksPage() {
                 <Link
                   key={i}
                   href={feature.link}
-                  className="group flex flex-col rounded-2xl bg-white p-8 border border-stone-100 shadow-sm hover:shadow-md hover:border-red-200 hover:-translate-y-1 transition-all duration-300"
+                  className="group flex flex-col rounded-2xl bg-white p-8 border border-stone-100 shadow-sm hover:shadow-md hover:border-sky-200 hover:-translate-y-1 transition-all duration-300"
                 >
-                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-red-50 text-[#FF6B00] group-hover:bg-[#FF6B00] group-hover:text-[#2F3136] transition-colors">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-sky-50 text-[#0EA5E9] group-hover:bg-[#14B8A6] group-hover:text-[#0F172A] transition-colors">
                     <Icon className="h-7 w-7" strokeWidth={1.5} />
                   </div>
-                  <h3 className="mt-6 text-xl font-bold text-[#2F3136]">{feature.title}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-[#68717A] flex-grow">
+                  <h3 className="mt-6 text-xl font-bold text-[#0F172A]">{feature.title}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-[#64748B] flex-grow">
                     {feature.description}
                   </p>
-                  <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-[#FF6B00] group-hover:gap-2 transition-all">
+                  <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-[#0EA5E9] group-hover:gap-2 transition-all">
                     Learn more <ArrowRight className="h-4 w-4" />
                   </span>
                 </Link>
@@ -343,8 +342,8 @@ export default function HowItWorksPage() {
       {/* ─── Benefits Strip ─── */}
       <section className="py-16 bg-white">
         <div className="mx-auto max-w-[1100px] px-6">
-          <h2 className="text-center text-2xl sm:text-3xl font-black text-[#2F3136] mb-10 uppercase">
-            Why Choose <span className="text-[#FF6B00]">FreeGoTV</span>?
+          <h2 className="text-center text-2xl sm:text-3xl font-black text-[#0F172A] mb-10 uppercase">
+            Why Choose <span className="text-[#0EA5E9]">FreeGoTV</span>?
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
             {benefits.map((benefit, i) => {
@@ -354,8 +353,8 @@ export default function HowItWorksPage() {
                   key={i}
                   className="flex items-center gap-3 rounded-xl border border-stone-100 bg-white px-5 py-4 shadow-sm"
                 >
-                  <Icon className="h-5 w-5 text-[#FF6B00] shrink-0" strokeWidth={2.5} />
-                  <span className="text-sm font-bold text-[#2F3136]">{benefit.text}</span>
+                  <Icon className="h-5 w-5 text-[#0EA5E9] shrink-0" strokeWidth={2.5} />
+                  <span className="text-sm font-bold text-[#0F172A]">{benefit.text}</span>
                 </div>
               );
             })}
@@ -364,12 +363,12 @@ export default function HowItWorksPage() {
       </section>
 
       {/* ─── CTA Banner ─── */}
-      <section className="py-20 bg-[#FF6B00]">
+      <section className="py-20 bg-[#14B8A6]">
         <div className="mx-auto max-w-3xl px-6 text-center">
-          <h2 className="text-3xl sm:text-4xl font-black text-[#2F3136] uppercase">
+          <h2 className="text-3xl sm:text-4xl font-black text-[#0F172A] uppercase">
             Ready to Start Streaming?
           </h2>
-          <p className="mt-4 text-lg text-red-50 font-medium">
+          <p className="mt-4 text-lg text-white font-medium">
             Join thousands of satisfied customers. Get instant access to 50,000+ live channels, 120,000+ films & series, and 200,000+ VODs.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
@@ -377,13 +376,13 @@ export default function HowItWorksPage() {
               href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV."
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-white text-[#FF6B00] font-bold px-8 py-3.5 rounded-md shadow-lg hover:bg-red-50 transition-all"
+              className="inline-flex items-center justify-center gap-2 bg-white text-[#0EA5E9] font-bold px-8 py-3.5 rounded-md shadow-lg hover:bg-sky-50 transition-all"
             >
               Get Free Trial <ArrowRight className="h-4 w-4" />
             </a>
             <Link
               href="/pricing"
-              className="inline-flex items-center justify-center gap-2 border-2 border-white text-[#2F3136] font-bold px-8 py-3.5 rounded-md hover:bg-[#F7F7F8] transition-all"
+              className="inline-flex items-center justify-center gap-2 border-2 border-white text-[#0F172A] font-bold px-8 py-3.5 rounded-md hover:bg-[#F8FAFC] transition-all"
             >
               View All Plans
             </Link>

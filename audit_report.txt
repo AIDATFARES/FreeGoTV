@@ -1,0 +1,69 @@
+
+--- src\app\blog\page.tsx ---
+H1: Latest News &amp; Streaming Tips
+H2: Never Miss an Update
+
+--- src\app\blog\[slug]\page.tsx ---
+H2: Frequently Asked Questions
+H2: Related Articles
+
+--- src\app\channels\page.tsx ---
+H2: Ready to start watching?
+
+--- src\app\contact\page.tsx ---
+H3: Email Us
+H3: WhatsApp Support
+H3: Response Time
+
+--- src\app\dmca\page.tsx ---
+H2: {index + 1}. {section.title}
+H2: 11. Contact
+
+--- src\app\faq\page.tsx ---
+H2: {activeCategory}
+H2: Get in Touch with Our Support Team
+H3: Send us a message
+
+--- src\app\how-it-works\page.tsx ---
+H3: {step.title}
+H3: {feature.title}
+
+--- src\app\installation\page.tsx ---
+H2: Quick Start Guide
+H3: Supported on all your favorite devices
+H2: Need help with setup?
+H3: {title}
+
+--- src\app\page.tsx ---
+H3: Supported on all your favorite devices
+
+--- src\app\privacy-policy\page.tsx ---
+H2: {section.title}
+H2: 10. Contact Us
+
+--- src\app\refund-policy\page.tsx ---
+H2: {index + 1}. {section.title}
+H2: 9. Contact Us
+
+--- src\components\home\ChannelCategories.tsx ---
+H3: {feature.title}
+
+--- src\components\home\PricingSection.tsx ---
+H3: {plan.name}
+
+--- src\components\home\WhyIPTVDoorSection.tsx ---
+H2: The UltimateFreeGoTV Experience
+
+--- src\components\installation\DeviceSetupGuide.tsx ---
+H2: Device Setup Instructions
+H3: {device.title}
+H4: Important Note
+H2: Installation FAQ
+H4: {title}
+
+--- src\components\pricing\PricingPageContent.tsx ---
+H3: {plan.name}
+H4: Secure Payments & Instant Access
+H2: Every plan includes
+H3: {title}
+H2: Billing &amp; Subscription FAQ

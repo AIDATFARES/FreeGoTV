@@ -6,12 +6,12 @@ export default function Contact() {
   return (
     <main className="flex-grow pt-32 pb-xl px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto w-full relative z-10">
       <div className="mx-auto mb-14 max-w-3xl text-center">
-        <span className="inline-flex rounded-full border border-[#7D927D]/35 bg-[#7D927D]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-red-300">Contact Support</span>
+        <span className="inline-flex rounded-full border border-[#0EA5E9]/35 bg-[#0EA5E9]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-sky-400">Contact Support</span>
         <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
-          <span className="block text-[#2F3136]">Get in Touch with</span>
-          <span className="mt-1 block text-[#FF6B00]">Our Support Team.</span>
+          <span className="block text-[#0F172A]">Get in Touch with</span>
+          <span className="mt-1 block text-[#0EA5E9]">Our Support Team.</span>
         </h1>
-        <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#68717A]">
+        <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#64748B]">
           We&apos;re here to help you get the best streaming experience. Send us a message and we&apos;ll get back to you quickly.
         </p>
       </div>
@@ -34,15 +34,15 @@ export default function Contact() {
           </div>
 
           <div className="glass-panel rounded-xl p-lg flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full bg-[#7D927D]/20 flex items-center justify-center mb-md">
-              <MessageCircle className="text-[#7D927D] w-8 h-8" />
+            <div className="w-16 h-16 rounded-full bg-[#0EA5E9]/20 flex items-center justify-center mb-md">
+              <MessageCircle className="text-[#0EA5E9] w-8 h-8" />
             </div>
             <h3 className="font-title-md text-title-md text-on-surface mb-xs">WhatsApp Support</h3>
             <p className="font-body-sm text-body-sm text-on-surface-variant mb-md">
               Fastest way to reach us for technical issues.
             </p>
             <a
-              className="text-[#7D927D] font-medium hover:text-red-300 transition-colors flex items-center gap-xs"
+              className="text-[#0EA5E9] font-medium hover:text-sky-400 transition-colors flex items-center gap-xs"
               href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20FreeGoTV."
               target="_blank"
               rel="noreferrer"

@@ -2,45 +2,45 @@
 
 @theme {
   --color-surface: #FFFFFF;
-  --color-surface-dim: #F7F7F8;
+  --color-surface-dim: #F8FAFC;
   --color-surface-bright: #FFFFFF;
   --color-surface-container-lowest: #FFFFFF;
-  --color-surface-container-low: #F1F1F5;
-  --color-surface-container: #F1F1F5;
-  --color-surface-container-high: #E8E9ED;
-  --color-surface-container-highest: #E8E9ED;
-  --color-on-surface: #2F3136;
-  --color-on-surface-variant: #68717A;
-  --color-inverse-surface: #2F3136;
-  --color-inverse-on-surface: #F1F1F5;
+  --color-surface-container-low: #F1F5F9;
+  --color-surface-container: #F1F5F9;
+  --color-surface-container-high: #E2E8F0;
+  --color-surface-container-highest: #E2E8F0;
+  --color-on-surface: #0F172A;
+  --color-on-surface-variant: #64748B;
+  --color-inverse-surface: #0F172A;
+  --color-inverse-on-surface: #F1F5F9;
   --color-outline: rgba(47,49,54,0.08);
   --color-outline-variant: rgba(47,49,54,0.04);
-  --color-surface-tint: #7D927D;
-  --color-primary: #7D927D;
+  --color-surface-tint: #0EA5E9;
+  --color-primary: #0EA5E9;
   --color-on-primary: #FFFFFF;
-  --color-primary-container: #5B7083;
+  --color-primary-container: #14B8A6;
   --color-on-primary-container: #FFFFFF;
-  --color-inverse-primary: #7D927D;
-  --color-secondary: #5B7083;
+  --color-inverse-primary: #0EA5E9;
+  --color-secondary: #14B8A6;
   --color-on-secondary: #FFFFFF;
-  --color-secondary-container: #E8E9ED;
-  --color-on-secondary-container: #2F3136;
-  --color-tertiary: #D9C5B2;
-  --color-on-tertiary: #2F3136;
-  --color-tertiary-container: #D9C5B2;
-  --color-on-tertiary-container: #2F3136;
-  --color-background: #F1F1F5;
-  --color-on-background: #2F3136;
+  --color-secondary-container: #E2E8F0;
+  --color-on-secondary-container: #0F172A;
+  --color-tertiary: #BAE6FD;
+  --color-on-tertiary: #0F172A;
+  --color-tertiary-container: #BAE6FD;
+  --color-on-tertiary-container: #0F172A;
+  --color-background: #F1F5F9;
+  --color-on-background: #0F172A;
   --color-surface-variant: #FFFFFF;
 
   /* Brand Colors Override */
-  --color-orange-400: #7D927D;
-  --color-orange-500: #5B7083;
-  --color-orange-600: #7D927D;
-  --color-blue-500: #5B7083;
-  --color-slate-600: #68717A;
-  --color-slate-700: #2F3136;
-  --color-black: #2F3136;
+  --color-orange-400: #0EA5E9;
+  --color-orange-500: #14B8A6;
+  --color-orange-600: #0EA5E9;
+  --color-blue-500: #14B8A6;
+  --color-slate-600: #64748B;
+  --color-slate-700: #0F172A;
+  --color-black: #0F172A;
 
   --radius: 0.5rem;
   --radius-lg: 0.75rem;
@@ -106,28 +106,28 @@
 
 @layer components {
   .glass-panel {
-    background: rgba(30, 32, 32, 0.6);
+    background: rgba(15, 23, 42, 0.5);
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(14, 165, 233, 0.15);
   }
   .text-glow {
-    text-shadow: 0 0 20px rgba(255, 107, 0, 0.3);
+    text-shadow: 0 0 20px rgba(14, 165, 233, 0.3);
   }
   .btn-glow:hover {
-    box-shadow: 0 0 30px rgba(255, 107, 0, 0.5);
+    box-shadow: 0 0 30px rgba(14, 165, 233, 0.4);
   }
 
   .btn-primary-voltra {
-    background: linear-gradient(90deg, #5B7083 0%, #7D927D 100%);
+    background: linear-gradient(90deg, #14B8A6 0%, #0EA5E9 100%);
     color: #ffffff;
     font-weight: 600;
     border-radius: var(--radius);
-    box-shadow: 0 4px 15px rgba(47,49,54,0.08);
+    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.2);
     transition: all 0.3s ease;
   }
   .btn-primary-voltra:hover {
-    box-shadow: 0 8px 30px rgba(47,49,54,0.12);
+    box-shadow: 0 8px 30px rgba(14, 165, 233, 0.35);
     transform: translateY(-2px);
     filter: brightness(1.05);
   }
@@ -137,14 +137,14 @@
 
   .btn-secondary-voltra {
     background: transparent;
-    border: 1px solid #5B7083;
-    color: #5B7083;
+    border: 1px solid #14B8A6;
+    color: #14B8A6;
     font-weight: 600;
     border-radius: var(--radius);
     transition: all 0.3s ease;
   }
   .btn-secondary-voltra:hover {
-    background: #5B7083;
+    background: #14B8A6;
     color: #ffffff;
     transform: translateY(-2px);
   }
@@ -222,7 +222,7 @@
   }
   .text-format-technical strong,
   .text-format-technical b {
-    @apply font-bold text-black underline decoration-emerald-500/50 decoration-2 underline-offset-2;
+    @apply font-bold text-black underline decoration-teal-500/50 decoration-2 underline-offset-2;
   }
 
   /* 4. LEGAL & POLICY DOCUMENTS */

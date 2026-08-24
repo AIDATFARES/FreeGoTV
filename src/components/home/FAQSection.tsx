@@ -10,14 +10,14 @@ const faqs = [
         FreeGoTV is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
         <Link
           href="/channels"
-          className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+          className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
         >
           live TV channels
         </Link>{" "}
         and{" "}
         <a
           href="#pricing"
-          className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+          className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
         >
           IPTV subscription plans
         </a>
@@ -35,14 +35,14 @@ const faqs = [
           href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20freegotv%20IPTV."
           target="_blank"
           rel="noreferrer"
-          className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+          className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
         >
           free trial
         </a>{" "}
         so you can test the service before committing to our{" "}
         <a
           href="#pricing"
-          className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+          className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
         >
           subscription plans
         </a>
@@ -58,7 +58,7 @@ const faqs = [
         FreeGoTV works on Android TV, Firestick, Smart TVs, Android phones, tablets, and apps like Tivimate. Follow our step-by-step{" "}
         <Link
           href="/installation"
-          className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+          className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
         >
           installation guides
         </Link>{" "}
@@ -74,7 +74,7 @@ const faqs = [
         Yes, we offer multi-device support. You can choose an{" "}
         <a
           href="#pricing"
-          className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+          className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
         >
           IPTV subscription plan
         </a>{" "}
@@ -90,7 +90,7 @@ const faqs = [
         Absolutely. We offer a wide selection of live sports channels, including major leagues and international events. Explore our full{" "}
         <Link
           href="/channels"
-          className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+          className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
         >
           channels catalog
         </Link>
@@ -106,7 +106,7 @@ const faqs = [
         We accept PayPal, cryptocurrency (such as Bitcoin), credit cards, and instant bank transfers for quick and secure payments. Contact our{" "}
         <Link
           href="/contact"
-          className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+          className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
         >
           support team
         </Link>{" "}
@@ -122,7 +122,7 @@ const faqs = [
         The service includes live TV channels, sports, movies, TV series, kids&apos; content, international channels, and more – all in HD or 4K quality. Learn more in our{" "}
         <Link
           href="/blog"
-          className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+          className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
         >
           IPTV articles & guides
         </Link>
@@ -138,7 +138,7 @@ const faqs = [
         A VPN is not required but is recommended in some regions to ensure unrestricted access and added privacy. Read our{" "}
         <Link
           href="/faq"
-          className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+          className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
         >
           FAQ knowledge base
         </Link>{" "}
@@ -150,36 +150,36 @@ const faqs = [
 
 export default function FAQSection() {
   return (
-    <section className="py-20 bg-white text-[#2F3136] relative z-10 border-t border-black/10 overflow-hidden">
+    <section className="py-20 bg-white text-[#0F172A] relative z-10 border-t border-black/10 overflow-hidden">
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#2F3136] tracking-tight leading-tight animate-fade-up">
-            Frequently Asked Questions<br />(FAQ)
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0F172A] tracking-tight leading-tight animate-fade-up">
+            Frequently Asked Questions About FreeGoTV IPTV
           </h2>
           <p className="text-stone-700 text-sm sm:text-base mt-5 leading-relaxed max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-            Find answers to common questions about our IPTV service, including{" "}
+            Find detailed answers regarding our premium{" "}
             <a
               href="#pricing"
-              className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+              className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
             >
               subscriptions
             </a>
             ,{" "}
             <Link
               href="/installation"
-              className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+              className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
             >
-              devices
+              supported devices
             </Link>
-            , streaming quality, payments, and more. If you need further help, our{" "}
+            , 4K streaming quality, and secure payments. If you need personalized assistance, our dedicated{" "}
             <Link
               href="/contact"
-              className="text-[#7D927D] font-semibold hover:text-[#7D927D] transition-colors"
+              className="text-[#0EA5E9] font-semibold hover:text-[#0EA5E9] transition-colors"
             >
               support team
             </Link>{" "}
-            is here for you.
+            is available 24/7.
           </p>
         </div>
 
@@ -188,13 +188,13 @@ export default function FAQSection() {
           {faqs.map((faq, index) => (
             <div
               key={faq.id}
-              className="flex flex-col rounded-2xl overflow-hidden border border-black/10 bg-white shadow-xl hover:border-[#7D927D]/40 transition-colors animate-fade-up"
+              className="flex flex-col rounded-2xl overflow-hidden border border-black/10 bg-white shadow-xl hover:border-[#0EA5E9]/40 transition-colors animate-fade-up"
               style={{ animationDelay: `${0.2 + (index * 0.05)}s`, animationFillMode: 'both' }}
             >
               {/* Header Banner */}
               <div className="bg-stone-100 border-b border-black/10 px-5 py-4 flex items-center gap-3">
-                <HelpCircle className="w-5 h-5 text-[#7D927D] shrink-0" />
-                <h3 className="text-base sm:text-lg font-bold text-[#2F3136] leading-snug">
+                <HelpCircle className="w-5 h-5 text-[#0EA5E9] shrink-0" />
+                <h3 className="text-base sm:text-lg font-bold text-[#0F172A] leading-snug">
                   {faq.question}
                 </h3>
               </div>
@@ -211,7 +211,7 @@ export default function FAQSection() {
         <div className="mt-12 text-center animate-fade-up" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
           <Link
             href="/faq"
-            className="inline-flex items-center gap-2.5 px-7 py-3 rounded-full bg-white border border-black/20 text-[#2F3136] font-bold text-xs sm:text-sm hover:bg-[#7D927D] hover:border-[#7D927D] transition-all duration-300 shadow-lg"
+            className="inline-flex items-center gap-2.5 px-7 py-3 rounded-full bg-white border border-black/20 text-[#0F172A] font-bold text-xs sm:text-sm hover:bg-[#0EA5E9] hover:border-[#0EA5E9] transition-all duration-300 shadow-lg"
           >
             <span>View Complete FAQ Knowledge Base</span>
             <ArrowRight className="w-4 h-4" />

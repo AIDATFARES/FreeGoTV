@@ -7,38 +7,38 @@ export default function FeaturesSection() {
   const features = [
     {
       icon: Cpu,
-      title: "Anti-Freeze 10.0 Tech",
-      desc: "Custom H.265/HEVC encoding guarantees 0% buffering, even during high-demand live sports broadcasts.",
+      title: "Advanced Anti-Freeze Technology",
+      desc: "Our proprietary H.265/HEVC encoding infrastructure eliminates buffering entirely, even during peak viewership for major live sports.",
       color: "text-primary",
     },
     {
       icon: Tv2,
-      title: "True 4K 60FPS Streaming",
-      desc: "Ultra High Definition with 60 frames per second crisp motion for every sports action.",
+      title: "Stunning 4K 60FPS Quality",
+      desc: "Immerse yourself in breathtaking Ultra High Definition. Enjoy silky-smooth 60 frames per second playback for all fast-paced action.",
       color: "text-tertiary",
     },
     {
       icon: Clock,
-      title: "7-Day Catchup TV",
-      desc: "Missed a match or movie? Rewind and rewatch any broadcast from the past 7 days on demand.",
+      title: "7-Day Premium Catchup",
+      desc: "Never miss a crucial moment again. Instantly rewind and replay any major broadcast from the past 7 days directly on demand.",
       color: "text-secondary",
     },
     {
       icon: ShieldCheck,
-      title: "99.99% Server Uptime",
-      desc: "Redundant global cloud network with failover nodes ensures non-stop broadcast reliability.",
-      color: "text-[#7D927D]",
+      title: "99.99% Network Reliability",
+      desc: "Powered by a robust global cloud network with automated failover nodes, ensuring your streams stay live 24/7.",
+      color: "text-[#0EA5E9]",
     },
     {
       icon: Wifi,
-      title: "Low Bandwidth Mode",
-      desc: "Smart compression allows smooth HD streaming even on modest internet connections (8+ Mbps).",
+      title: "Adaptive Bandwidth Optimization",
+      desc: "Our intelligent compression algorithms guarantee smooth HD streaming even on limited internet connections (8+ Mbps).",
       color: "text-primary",
     },
     {
       icon: Sparkles,
-      title: "Complete EPG Guide",
-      desc: "Full Electronic Program Guide with schedule times, match info, and movie descriptions.",
+      title: "Comprehensive EPG Guide",
+      desc: "Navigate seamlessly with our fully integrated Electronic Program Guide, featuring accurate schedules, live match details, and rich movie synopses.",
       color: "text-tertiary",
     },
   ];
@@ -53,7 +53,7 @@ export default function FeaturesSection() {
             viewport={{ once: true }}
             className="font-label-caps text-label-caps text-tertiary tracking-widest uppercase mb-xs block"
           >
-            Built for Extreme Performance
+            Maximum Performance Architecture
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 10 }}
@@ -61,7 +61,7 @@ export default function FeaturesSection() {
             viewport={{ once: true }}
             className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-semibold text-on-background mb-sm"
           >
-            FreeGoTV for Flawless Streaming
+            FreeGoTV: Engineered for Uninterrupted IPTV Entertainment
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -69,7 +69,7 @@ export default function FeaturesSection() {
             viewport={{ once: true }}
             className="font-body-lg text-body-lg text-on-surface-variant"
           >
-            Experience the future of IPTV technology with Next-Gen infrastructure designed specifically for live sports events.
+            Experience the pinnacle of IPTV technology. Our next-generation infrastructure is purpose-built to deliver flawless live sports, movies, and global broadcasts.
           </motion.p>
         </div>
 

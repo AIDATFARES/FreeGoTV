@@ -3,21 +3,21 @@ import Link from "next/link";
 
 export default function HowItWorksSection() {
   return (
-    <section className="py-20 bg-white text-[#2F3136] relative z-10 border-b border-black/10 overflow-hidden">
+    <section className="py-20 bg-white text-[#0F172A] relative z-10 border-b border-black/10 overflow-hidden">
       <div className="max-w-[1240px] mx-auto px-6">
 
         {/* ========================================================================= */}
         {/* PART 1: How does it work? FreeGoTV Timeline */}
         {/* ========================================================================= */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-bold uppercase tracking-widest text-[#FF6B00] mb-2 block">
+          <span className="text-xs font-bold uppercase tracking-widest text-[#0EA5E9] mb-2 block">
             EASY IPTV SETUP
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#FF6B00] tracking-tight">
-            How to Start Your Premium IPTV Subscription
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0EA5E9] tracking-tight">
+            Start Streaming FreeGoTV IPTV in 3 Simple Steps
           </h2>
           <p className="text-stone-700 text-sm sm:text-base mt-4 leading-relaxed max-w-2xl mx-auto">
-            Setting up your FreeGoTV account is quick and simple. Follow our 3-step process to get instant access to live TV, movies, and series.
+            Getting started with FreeGoTV is remarkably fast and easy. Follow this simple process to unlock your premium entertainment experience instantly.
           </p>
         </div>
 
@@ -30,7 +30,7 @@ export default function HowItWorksSection() {
           <div className="relative mb-16 md:mb-20">
             {/* Step Badge */}
             <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-4 z-20 flex justify-center mb-6 md:mb-0">
-              <span className="bg-[#FF6B00] text-[#2F3136] font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
+              <span className="bg-[#14B8A6] text-[#0F172A] font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(14,165,233,0.6)]">
                 Step One
               </span>
             </div>
@@ -39,38 +39,31 @@ export default function HowItWorksSection() {
               {/* Left Card */}
               <div className="bg-white text-stone-100 p-8 rounded-2xl shadow-xl relative border border-stone-200"
               >
-                <h3 className="text-xl font-extrabold text-[#FF6B00] mb-3">
+                <h3 className="text-xl font-extrabold text-[#0EA5E9] mb-3">
                   <a
                     href="#pricing"
-                    className="hover:text-red-700 transition-colors"
+                    className="hover:text-teal-600 transition-colors"
                   >
-                    1. Choose Your IPTV Plan
+                    1. Select Your Premium Plan
                   </a>
                 </h3>
-                <p className="text-[#68717A] text-sm leading-relaxed">
-                  Select the best IPTV subscription package for your needs from our{" "}
-                  <a
-                    href="#pricing"
-                    className="text-[#FF6B00] font-semibold hover:text-red-700 transition-colors"
-                  >
-                    pricing plans
-                  </a>
-                  . Once you complete the payment, we will email or{" "}
+                <p className="text-[#64748B] text-sm leading-relaxed">
+                  Browse our flexible pricing plans and select the package that fits your lifestyle. After secure checkout, your private login credentials are automatically dispatched via email or{" "}
                   <Link
                     href="/contact"
-                    className="text-[#FF6B00] font-semibold hover:text-red-700 transition-colors"
+                    className="text-[#0EA5E9] font-semibold hover:text-teal-600 transition-colors"
                   >
                     WhatsApp
                   </Link>{" "}
-                  your login details instantly.
+                  instantly.
                 </p>
               </div>
 
               {/* Right Image */}
-              <div className="overflow-hidden rounded-2xl bg-[#2F3136]/5 border border-black/10 shadow-xl"
+              <div className="overflow-hidden rounded-2xl bg-[#0F172A]/5 border border-black/10 shadow-xl"
               >
                 <Image
-                  src="/step-1-order-v2.webp"
+                  src="/step-1-order-ai.png"
                   alt="Place your order online"
                   width={600}
                   height={380}
@@ -84,17 +77,17 @@ export default function HowItWorksSection() {
           <div className="relative mb-16 md:mb-20">
             {/* Step Badge */}
             <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-4 z-20 flex justify-center mb-6 md:mb-0">
-              <span className="bg-[#FF6B00] text-[#2F3136] font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
+              <span className="bg-[#14B8A6] text-[#0F172A] font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(14,165,233,0.6)]">
                 Step Two
               </span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center pt-6">
               {/* Left Image */}
-              <div className="overflow-hidden rounded-2xl bg-[#2F3136]/5 border border-black/10 shadow-xl order-2 md:order-1"
+              <div className="overflow-hidden rounded-2xl bg-[#0F172A]/5 border border-black/10 shadow-xl order-2 md:order-1"
               >
                 <Image
-                  src="/step-2-setup-v2.webp"
+                  src="/step-2-setup-ai.png"
                   alt="Instant installation"
                   width={600}
                   height={380}
@@ -105,23 +98,23 @@ export default function HowItWorksSection() {
               {/* Right Card */}
               <div className="bg-white text-stone-100 p-8 rounded-2xl shadow-xl relative border border-stone-200 order-1 md:order-2"
               >
-                <h3 className="text-xl font-extrabold text-[#FF6B00] mb-3">
+                <h3 className="text-xl font-extrabold text-[#0EA5E9] mb-3">
                   <Link
                     href="/installation"
-                    className="hover:text-red-700 transition-colors"
+                    className="hover:text-teal-600 transition-colors"
                   >
-                    2. Install Your IPTV App
+                    2. Connect Your Device
                   </Link>
                 </h3>
-                <p className="text-[#68717A] text-sm leading-relaxed">
-                  Use our step-by-step{" "}
+                <p className="text-[#64748B] text-sm leading-relaxed">
+                  Follow our comprehensive{" "}
                   <Link
                     href="/installation"
-                    className="text-[#FF6B00] font-semibold hover:text-red-700 transition-colors"
+                    className="text-[#0EA5E9] font-semibold hover:text-teal-600 transition-colors"
                   >
                     IPTV installation guides
                   </Link>{" "}
-                  to set up the service on your Smart TV, Firestick, Android Box, or Apple device using top apps like IPTV Smarters or Tivimate.
+                  to configure your Smart TV, Firestick, or mobile device. We fully support industry-leading applications like IPTV Smarters and TiviMate.
                 </p>
               </div>
             </div>
@@ -131,7 +124,7 @@ export default function HowItWorksSection() {
           <div className="relative">
             {/* Step Badge */}
             <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-4 z-20 flex justify-center mb-6 md:mb-0">
-              <span className="bg-[#FF6B00] text-[#2F3136] font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
+              <span className="bg-[#14B8A6] text-[#0F172A] font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(14,165,233,0.6)]">
                 Step Three
               </span>
             </div>
@@ -140,31 +133,31 @@ export default function HowItWorksSection() {
               {/* Left Card */}
               <div className="bg-white text-stone-100 p-8 rounded-2xl shadow-xl relative border border-stone-200"
               >
-                <h3 className="text-xl font-extrabold text-[#FF6B00] mb-3">
+                <h3 className="text-xl font-extrabold text-[#0EA5E9] mb-3">
                   <Link
                     href="/channels"
-                    className="hover:text-red-700 transition-colors"
+                    className="hover:text-teal-600 transition-colors"
                   >
-                    3. Watch Live TV & VOD
+                    3. Start Watching Instantly
                   </Link>
                 </h3>
-                <p className="text-[#68717A] text-sm leading-relaxed">
-                  Start streaming! Enjoy over 50,000 live HD and 4K channels, plus a massive Video on Demand (VOD) library of movies and series from our{" "}
+                <p className="text-[#64748B] text-sm leading-relaxed">
+                  Dive into over 50,000 live international channels and a massive Video on Demand library. Explore our extensive{" "}
                   <Link
                     href="/channels"
-                    className="text-[#FF6B00] font-semibold hover:text-red-700 transition-colors"
+                    className="text-[#0EA5E9] font-semibold hover:text-teal-600 transition-colors"
                   >
                     channels catalog
                   </Link>
-                  {" "}without any buffering.
+                  {" "}in stunning 4K and HD quality—with zero buffering.
                 </p>
               </div>
 
               {/* Right Image */}
-              <div className="overflow-hidden rounded-2xl bg-[#2F3136]/5 border border-black/10 shadow-xl"
+              <div className="overflow-hidden rounded-2xl bg-[#0F172A]/5 border border-black/10 shadow-xl"
               >
                 <Image
-                  src="/step-3-watch-v2.webp"
+                  src="/step-3-watch-ai.png"
                   alt="Watch and enjoy live TV"
                   width={600}
                   height={380}

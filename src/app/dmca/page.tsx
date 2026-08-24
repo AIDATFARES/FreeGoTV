@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Legal Disclaimer & DMCA | FreeGoTV",
-  description: "Legal Disclaimer and DMCA policy for FreeGoTV.",
+  description: "Read the official FreeGoTV Legal Disclaimer and DMCA notice. Find information about copyright compliance and our content hosting policies.",
   alternates: {
     canonical: "/dmca",
   },
@@ -25,7 +25,7 @@ const sections = [
   {
     title: "Availability and Service Changes",
     content: [
-      <>Channel and VOD options may vary in availability, quality (including 4K/FHD/HD), features, plans, and <Link className="font-semibold text-[#7D927D] hover:text-red-300" href="/pricing">pricing</Link>, and can be modified or removed by region without prior notification. We do not assure the availability of any particular <Link className="font-semibold text-[#7D927D] hover:text-red-300" href="/channels">channel</Link>, event, or title.</>,
+      <>Channel and VOD options may vary in availability, quality (including 4K/FHD/HD), features, plans, and <Link className="font-semibold text-[#0EA5E9] hover:text-sky-400" href="/pricing">pricing</Link>, and can be modified or removed by region without prior notification. We do not assure the availability of any particular <Link className="font-semibold text-[#0EA5E9] hover:text-sky-400" href="/channels">channel</Link>, event, or title.</>,
     ],
   },
   {
@@ -88,25 +88,25 @@ export default function DmcaPage() {
     <main className="flex-grow px-5 pb-20 pt-12 sm:px-8 md:pt-16">
       <article className="mx-auto max-w-4xl">
         <header className="border-b border-black/10 pb-10 text-center mx-auto max-w-3xl">
-          <span className="inline-flex rounded-full border border-[#7D927D]/35 bg-[#7D927D]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-red-300">Legal information</span>
+          <span className="inline-flex rounded-full border border-[#0EA5E9]/35 bg-[#0EA5E9]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-sky-400">Legal information</span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
-            <span className="block text-[#2F3136]">Legal Disclaimer</span>
-            <span className="mt-1 block text-[#FF6B00]">&amp; DMCA Notice.</span>
+            <span className="block text-[#0F172A]">Legal Disclaimer</span>
+            <span className="mt-1 block text-[#0EA5E9]">&amp; DMCA Notice.</span>
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#68717A]">Last updated: {currentDate}</p>
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#64748B]">Last updated: {currentDate}</p>
         </header>
 
         <div className="mt-10 space-y-10 text-base leading-7 text-on-surface-variant">
           <div className="space-y-4">
             <p>Content featured on this website is meant for general informational use and does not serve as legal advice. By engaging with our site or services, you agree to this disclaimer.</p>
             <div className="rounded-xl border border-blue-500/20 bg-blue-500/10 p-5 text-sm">
-              <strong className="text-[#2F3136]">Important:</strong> FreeGoTV delivers an intuitive IPTV service interface alongside account provisioning. We do not host, upload, store, or archive any audiovisual content. The details on this site are provided 'as is' for general guidance, not legal counsel.
+              <strong className="text-[#0F172A]">Important:</strong> FreeGoTV delivers an intuitive IPTV service interface alongside account provisioning. We do not host, upload, store, or archive any audiovisual content. The details on this site are provided 'as is' for general guidance, not legal counsel.
             </div>
           </div>
 
           {sections.map((section, index) => (
             <section key={section.title}>
-              <h2 className="text-2xl font-bold text-[#2F3136]">{index + 1}. {section.title}</h2>
+              <h2 className="text-2xl font-bold text-[#0F172A]">{index + 1}. {section.title}</h2>
               {section.content.map((paragraph, i) => <p className="mt-4" key={i}>{paragraph}</p>)}
               {section.items && section.items.length > 0 && <ul className="mt-4 list-disc space-y-2 pl-6 marker:text-tertiary">{section.items.map((item, i) => <li key={i}>{item}</li>)}</ul>}
               {section.after && <p className="mt-4">{section.after}</p>}
@@ -114,8 +114,8 @@ export default function DmcaPage() {
           ))}
           
           <section>
-            <h2 className="text-2xl font-bold text-[#2F3136]">11. Contact</h2>
-            <p className="mt-4">For any inquiries, refer to our Terms of Service and <Link className="font-semibold text-[#7D927D] hover:text-red-300" href="/privacy-policy">Privacy Policy</Link>, or contact <Link className="font-semibold text-[#7D927D] hover:text-red-300" href="/contact">support</Link>.</p>
+            <h2 className="text-2xl font-bold text-[#0F172A]">11. Contact</h2>
+            <p className="mt-4">For any inquiries, refer to our Terms of Service and <Link className="font-semibold text-[#0EA5E9] hover:text-sky-400" href="/privacy-policy">Privacy Policy</Link>, or contact <Link className="font-semibold text-[#0EA5E9] hover:text-sky-400" href="/contact">support</Link>.</p>
           </section>
         </div>
       </article>

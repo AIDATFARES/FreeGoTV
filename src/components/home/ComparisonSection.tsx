@@ -1,81 +1,58 @@
-import Link from "next/link";
+import Image from "next/image";
 
 export default function ComparisonSection() {
   return (
-    <section className="bg-white text-[#2F3136] relative z-10 border-b border-black/10 overflow-hidden py-20">
+    <section className="bg-white text-[#0F172A] relative z-10 py-20 border-b border-black/5">
       <div className="max-w-[1240px] mx-auto px-6">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-bold uppercase tracking-widest text-[#FF6B00] mb-2 block">
-            IPTV VS CABLE TV
-          </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#2F3136] tracking-tight">
-            Why FreeGoTV is the Best Cable TV Alternative
-          </h2>
-          <p className="text-stone-700 text-sm sm:text-base mt-4 leading-relaxed max-w-2xl mx-auto">
-            Discover why thousands of users are cutting the cord. Our premium IPTV service offers more channels, better 4K quality, and reliable anti-freeze technology at a fraction of the cost of traditional cable.
-          </p>
-        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          {/* Image Side */}
+          <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
+            <Image 
+              src="/unnamed-300x171.jpg" 
+              alt="Watching FreeGoTV on Smart TV" 
+              fill 
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover hover:scale-105 transition-transform duration-700"
+            />
+          </div>
 
-        <div className="max-w-[1080px] mx-auto overflow-x-auto pb-4 px-4 sm:px-0">
-          <div className="min-w-[800px] bg-white rounded-2xl shadow-xl border-2 border-[#FF6B00] overflow-hidden relative flex">
+          {/* Text Side */}
+          <div className="flex flex-col justify-center">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#14B8A6] mb-4 block">
+              ABOUT THE SERVICE
+            </span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#0F172A] mb-6 tracking-tight leading-tight">
+              What is <span className="text-[#0EA5E9]">FreeGoTV?</span> — Best IPTV in USA & Canada
+            </h2>
             
-            {/* Orange Side Design Element (Internal Link) */}
-            <Link 
-              href="/how-it-works"
-              className="w-14 bg-[#FF6B00] hover:bg-[#E66000] transition-colors flex items-center justify-center group cursor-pointer shrink-0 border-r border-red-700/20 shadow-[inset_-4px_0_10px_rgba(0,0,0,0.1)]"
-              title="Learn How It Works"
-            >
-              <span className="-rotate-90 text-[#2F3136] font-black tracking-[0.2em] uppercase whitespace-nowrap text-xs sm:text-sm group-hover:scale-110 transition-transform">
-                How It Works
-              </span>
-            </Link>
+            <p className="text-stone-600 text-sm md:text-base mb-4 leading-relaxed">
+              FreeGoTV is the best IPTV subscription service in the USA and Canada, founded in 2013 and trusted by subscribers from New York to Toronto, Los Angeles to Vancouver. Delivering live TV, on-demand movies, and live sports to viewers across the United States, Canada, and Europe — all over the internet with no cable box required. In particular, FreeGoTV runs on any internet-connected device — Smart TVs, Firestick, Android, iOS, MAG Box — giving you access to a 50,000-channel library without long-term contracts or equipment rental.
+            </p>
+            
+            <p className="text-stone-600 text-sm md:text-base mb-10 leading-relaxed">
+              From breaking news and blockbuster movies to live football, basketball, and PPV events. As a result, it is built for modern households that want one flexible subscription covering everything cable used to do — at a fraction of the price. For reference, the official website is <strong className="text-[#0F172A]">freegotv.com</strong>.
+            </p>
 
-            <div className="flex-grow">
-              {/* Table Header */}
-              <div className="grid grid-cols-4 bg-stone-50 border-b border-stone-200">
-                <div className="p-6 text-sm font-bold text-[#68717A] uppercase tracking-wider">Feature</div>
-                <div className="p-6 text-sm font-black text-[#FF6B00] uppercase tracking-wider text-center border-x border-stone-200 bg-red-50/50">FreeGoTV</div>
-                <div className="p-6 text-sm font-bold text-[#68717A] uppercase tracking-wider text-center">Cable / Satellite</div>
-                <div className="p-6 text-sm font-bold text-[#68717A] uppercase tracking-wider text-center border-l border-stone-200">Other IPTV</div>
+            {/* Stats */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-4 pt-8 border-t border-stone-200">
+              <div className="text-center sm:text-left">
+                <div className="text-3xl font-black text-[#0EA5E9] mb-1">50K+</div>
+                <div className="text-[10px] md:text-xs text-[#64748B] font-bold uppercase tracking-wider">Live Channels</div>
               </div>
-
-              {/* Table Rows */}
-              {[
-                { feature: "Monthly Cost", freegotv: "From $4.2/mo", cable: "$80-$200/mo", other: "$10-$30/mo (unreliable)" },
-                { feature: "Live Channels", freegotv: "50,000+", cable: "200-500", other: "5,000-15,000" },
-                { feature: "4K Streaming", freegotv: "✓ Native 4K", cable: "Limited", other: "Rarely stable" },
-                { feature: "VOD Library", freegotv: "120,000+ titles", cable: "Add-on cost", other: "Varies wildly" },
-                { feature: "Server Uptime", freegotv: "99.9% guaranteed", cable: "99%", other: "60-85%" },
-                { feature: "Buffering", freegotv: "Zero — ever", cable: "Rare", other: "Common at peak hours" },
-                { feature: "Setup", freegotv: "5 minutes", cable: "Technician visit", other: "Varies" },
-                { feature: "Contract", freegotv: "No", cable: "12-24 months", other: "Sometimes" },
-                { feature: "Multi-Screen", freegotv: "✓ Included", cable: "Extra cost", other: "Limited" },
-                { feature: "Free Trial", freegotv: "✓ Available", cable: "No", other: "Rare" },
-              ].map((row, idx) => (
-                <div key={idx} className={`grid grid-cols-4 border-b border-stone-100 hover:bg-stone-50 transition-colors ${idx === 9 ? 'border-b-0' : ''}`}>
-                  <div className="p-5 text-sm font-bold text-stone-800 flex items-center">{row.feature}</div>
-                  <div className="p-5 text-sm font-bold text-[#2F3136] text-center flex items-center justify-center border-x border-stone-100 bg-red-50/30">
-                    {row.freegotv}
-                  </div>
-                  <div className="p-5 text-sm font-medium text-[#68717A] text-center flex items-center justify-center">
-                    {row.cable}
-                  </div>
-                  <div className="p-5 text-sm font-medium text-[#68717A] text-center flex items-center justify-center border-l border-stone-100">
-                    {row.other}
-                  </div>
-                </div>
-              ))}
+              <div className="text-center sm:text-left">
+                <div className="text-3xl font-black text-[#0EA5E9] mb-1">150K+</div>
+                <div className="text-[10px] md:text-xs text-[#64748B] font-bold uppercase tracking-wider">VOD Titles</div>
+              </div>
+              <div className="text-center sm:text-left">
+                <div className="text-3xl font-black text-[#0EA5E9] mb-1">4K</div>
+                <div className="text-[10px] md:text-xs text-[#64748B] font-bold uppercase tracking-wider">Ultra HD</div>
+              </div>
+              <div className="text-center sm:text-left">
+                <div className="text-3xl font-black text-[#0EA5E9] mb-1">99.9%</div>
+                <div className="text-[10px] md:text-xs text-[#64748B] font-bold uppercase tracking-wider">Uptime</div>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className="mt-12 text-center">
-          <a
-            href="#pricing"
-            className="inline-flex items-center justify-center bg-[#FF6B00] text-[#2F3136] font-bold px-10 py-4 rounded-md shadow-[0_4px_14px_rgba(255,107,0,0.3)] hover:bg-[#E66000] hover:shadow-[0_6px_20px_rgba(255,107,0,0.4)] transition-all hover:scale-105"
-          >
-            View Plans & Pricing
-          </a>
         </div>
       </div>
     </section>

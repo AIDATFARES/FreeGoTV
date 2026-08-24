@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | FreeGoTV",
-  description: "Learn how FreeGoTV collects, uses, and protects personal information.",
+  description: "Read the official FreeGoTV privacy policy. Learn how we securely collect, use, and protect your personal information while you enjoy our 4K IPTV services.",
   alternates: {
     canonical: "/privacy-policy",
   },
@@ -13,7 +13,7 @@ const sections = [
   {
     title: "1. Data We Collect",
     content: [
-      <>We collect personal data that you voluntarily provide when you subscribe to our IPTV service, request information about our products or services, or <Link className="font-semibold text-[#7D927D] hover:text-red-300" href="/contact">contact us</Link>. The personal data we collect may include the following:</>,
+      <>We collect personal data that you voluntarily provide when you subscribe to our IPTV service, request information about our products or services, or <Link className="font-semibold text-[#0EA5E9] hover:text-sky-400" href="/contact">contact us</Link>. The personal data we collect may include the following:</>,
     ],
     items: [
       "Contact information: Your email address, which we use for account creation and communication.",
@@ -69,7 +69,7 @@ const sections = [
       "Request erasure of your personal information in certain circumstances.",
       "Opt out of marketing and promotional communications at any time.",
     ],
-    after: <>To exercise any of these rights, please <Link className="font-semibold text-[#7D927D] hover:text-red-300" href="/contact">contact our support team</Link>.</>,
+    after: <>To exercise any of these rights, please <Link className="font-semibold text-[#0EA5E9] hover:text-sky-400" href="/contact">contact our support team</Link>.</>,
   },
   {
     title: "9. Children's Privacy",
@@ -82,27 +82,27 @@ export default function PrivacyPolicyPage() {
     <main className="flex-grow px-5 pb-20 pt-12 sm:px-8 md:pt-16 text-format-legal">
       <article className="mx-auto max-w-4xl">
         <header className="border-b border-black/10 pb-10 text-center mx-auto max-w-3xl">
-          <span className="inline-flex rounded-full border border-[#7D927D]/35 bg-[#7D927D]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-red-300">Legal information</span>
+          <span className="inline-flex rounded-full border border-[#0EA5E9]/35 bg-[#0EA5E9]/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-sky-400">Legal information</span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
-            <span className="block text-[#2F3136]">Privacy &amp; Data Protection</span>
-            <span className="mt-1 block text-[#FF6B00]">Official Policy.</span>
+            <span className="block text-[#0F172A]">Privacy &amp; Data Protection</span>
+            <span className="mt-1 block text-[#0EA5E9]">Official Policy.</span>
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#68717A]">Last adjusted: September 14, 2025</p>
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-[#64748B]">Last adjusted: September 14, 2025</p>
         </header>
 
         <div className="mt-10 space-y-10 text-base leading-7 text-on-surface-variant">
-          <p>Welcome to FreeGoTV. We are committed to protecting your personal information and respecting your privacy. If you have questions or concerns about this policy or our data practices, please <Link className="font-semibold text-[#7D927D] hover:text-red-300" href="/contact">contact our support team</Link>.</p>
+          <p>Welcome to FreeGoTV. We are committed to protecting your personal information and respecting your privacy. If you have questions or concerns about this policy or our data practices, please <Link className="font-semibold text-[#0EA5E9] hover:text-sky-400" href="/contact">contact our support team</Link>.</p>
           {sections.map((section) => (
             <section key={section.title}>
-              <h2 className="text-2xl font-bold text-[#2F3136]">{section.title}</h2>
+              <h2 className="text-2xl font-bold text-[#0F172A]">{section.title}</h2>
               {section.content.map((paragraph, index) => <p className="mt-4" key={index}>{paragraph}</p>)}
               {section.items && <ul className="mt-4 list-disc space-y-2 pl-6 marker:text-tertiary">{section.items.map((item, index) => <li key={index}>{item}</li>)}</ul>}
               {section.after && <p className="mt-4">{section.after}</p>}
             </section>
           ))}
           <section>
-            <h2 className="text-2xl font-bold text-[#2F3136]">10. Contact Us</h2>
-            <p className="mt-4">If you would like to discuss this policy or our handling of your personal information, please contact our <Link className="font-semibold text-[#7D927D] hover:text-red-300" href="/contact">support team</Link>.</p>
+            <h2 className="text-2xl font-bold text-[#0F172A]">10. Contact Us</h2>
+            <p className="mt-4">If you would like to discuss this policy or our handling of your personal information, please contact our <Link className="font-semibold text-[#0EA5E9] hover:text-sky-400" href="/contact">support team</Link>.</p>
           </section>
         </div>
       </article>
