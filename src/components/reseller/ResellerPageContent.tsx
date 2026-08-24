@@ -25,26 +25,26 @@ type CreditPlan = {
 
 const creditPlans: CreditPlan[] = [
   {
-    id: "120-credits",
-    credits: 120,
-    price: 299,
+    id: "10-credits",
+    credits: 10,
+    price: 50,
   },
   {
-    id: "240-credits",
-    credits: 240,
-    price: 559,
+    id: "50-credits",
+    credits: 50,
+    price: 250,
     popular: true,
   },
   {
-    id: "360-credits",
-    credits: 360,
-    price: 799,
+    id: "100-credits",
+    credits: 100,
+    price: 500,
     bestValue: true,
   },
   {
-    id: "600-credits",
-    credits: 600,
-    price: 1199,
+    id: "200-credits",
+    credits: 200,
+    price: 1000,
   },
 ];
 
