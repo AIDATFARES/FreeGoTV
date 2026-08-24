@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { ArrowLeft } from "lucide-react";
 import ArticleFAQAccordion from "@/components/blog/ArticleFAQAccordion";
+import BlogOfferCard from "@/components/blog/BlogOfferCard";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -64,6 +65,24 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   }
 
   const { beforeFaq, faqs, afterFaq } = parseArticleContent(post.content);
+
+  const splitToken = '\n## ';
+  const sections = beforeFaq.split(splitToken);
+  let contentPart1 = beforeFaq;
+  let contentPart2 = '';
+  
+  if (sections.length > 2) {
+    const middleIndex = Math.floor(sections.length / 2);
+    contentPart1 = sections.slice(0, middleIndex).join(splitToken);
+    contentPart2 = '## ' + sections.slice(middleIndex).join(splitToken);
+  } else {
+    const paragraphs = beforeFaq.split('\n\n');
+    if (paragraphs.length > 4) {
+      const mid = Math.floor(paragraphs.length / 2);
+      contentPart1 = paragraphs.slice(0, mid).join('\n\n');
+      contentPart2 = paragraphs.slice(mid).join('\n\n');
+    }
+  }
 
   const faqJsonLd = faqs.length > 0 ? {
     "@context": "https://schema.org",
@@ -160,8 +179,16 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           prose-td:border-b prose-td:border-outline-variant/50 prose-td:py-2"
         >
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
-            {beforeFaq}
+            {contentPart1}
           </ReactMarkdown>
+
+          <BlogOfferCard />
+
+          {contentPart2 && (
+            <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+              {contentPart2}
+            </ReactMarkdown>
+          )}
 
           {faqs.length > 0 && (
             <div className="mt-12 mb-8">
