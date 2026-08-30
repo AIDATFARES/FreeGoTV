@@ -30,7 +30,7 @@ export default function ComparisonSection() {
             </p>
             
             <p className="text-stone-600 text-sm md:text-base mb-10 leading-relaxed">
-              From breaking news and blockbuster movies to live football, basketball, and PPV events. As a result, it is built for modern households that want one flexible subscription covering everything cable used to do — at a fraction of the price. For reference, the official website is <strong className="text-[#0F172A]">freegotv.com</strong>.
+              From breaking news and blockbuster movies to live football, basketball, and PPV events. As a result, it is built for modern households that want one flexible subscription covering everything cable used to do — at a fraction of the price. For reference, the official website is <strong className="text-[#0F172A]">freegotv-iptv.shop</strong>.
             </p>
 
             {/* Stats */}
