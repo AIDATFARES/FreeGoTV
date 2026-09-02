@@ -66,6 +66,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
   const { beforeFaq, faqs, afterFaq } = parseArticleContent(post.content);
 
+  const hasManualCTA = post.content.includes('[CTA](#CTA)');
+
   const splitToken = '\n## ';
   const sections = beforeFaq.split(splitToken);
   let contentPart1 = beforeFaq;
@@ -109,7 +111,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     ol: ({ node, ...props }: any) => <ol className="list-decimal pl-6 mb-6 space-y-2" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    a: ({ node, ...props }: any) => <a className="text-[#0EA5E9] hover:text-[#0EA5E9] no-underline font-semibold transition-colors" {...props} />,
+    a: ({ node, ...props }: any) => {
+      if (props.href === '#CTA') {
+        return <BlogOfferCard />;
+      }
+      return <a className="text-[#0EA5E9] hover:text-[#0EA5E9] no-underline font-semibold transition-colors" {...props} />;
+    },
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     blockquote: ({ node, ...props }: any) => <blockquote className="border-l-4 border-primary pl-4 py-1 mb-6 italic bg-surface-container/30 rounded-r" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -178,15 +185,15 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           prose-th:text-on-surface prose-th:border-b prose-th:border-outline-variant prose-th:py-2
           prose-td:border-b prose-td:border-outline-variant/50 prose-td:py-2"
         >
-          <BlogOfferCard />
+          {!hasManualCTA && <BlogOfferCard />}
 
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
-            {contentPart1}
+            {hasManualCTA ? beforeFaq : contentPart1}
           </ReactMarkdown>
 
-          <BlogOfferCard />
+          {!hasManualCTA && <BlogOfferCard />}
 
-          {contentPart2 && (
+          {!hasManualCTA && contentPart2 && (
             <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
               {contentPart2}
             </ReactMarkdown>
