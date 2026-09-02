@@ -6,6 +6,7 @@ import remarkGfm from "remark-gfm";
 import { ArrowLeft } from "lucide-react";
 import ArticleFAQAccordion from "@/components/blog/ArticleFAQAccordion";
 import BlogOfferCard from "@/components/blog/BlogOfferCard";
+import BlogSupportCard from "@/components/blog/BlogSupportCard";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -114,6 +115,9 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     a: ({ node, ...props }: any) => {
       if (props.href === '#CTA') {
         return <BlogOfferCard />;
+      }
+      if (props.href === '#CTA-SUPPORT' || props.href === '#CTA-CONTACT') {
+        return <BlogSupportCard />;
       }
       return <a className="text-[#0EA5E9] hover:text-[#0EA5E9] no-underline font-semibold transition-colors" {...props} />;
     },
