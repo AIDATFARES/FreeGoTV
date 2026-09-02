@@ -106,7 +106,17 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     h3: ({ node, ...props }: any) => <h3 className="text-xl font-semibold mt-8 mb-4 text-on-surface" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    p: ({ node, ...props }: any) => <p className="mb-6 leading-relaxed" {...props} />,
+    p: ({ node, children, ...props }: any) => {
+      const containsBlock = node?.children?.some(
+        (child: any) =>
+          child.tagName === 'img' ||
+          (child.tagName === 'a' && child.properties?.href?.startsWith('#CTA'))
+      );
+      if (containsBlock) {
+        return <div className="mb-6 leading-relaxed" {...props}>{children}</div>;
+      }
+      return <p className="mb-6 leading-relaxed" {...props}>{children}</p>;
+    },
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     ul: ({ node, ...props }: any) => <ul className="list-disc pl-6 mb-6 space-y-2" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -131,10 +141,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     td: ({ node, ...props }: any) => <td className="border-b border-outline-variant/30 py-3 px-4" {...props} />,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     img: ({ node, alt, src, ...props }: any) => (
-      <div className="my-8 flex flex-col items-center">
+      <span className="my-8 flex flex-col items-center block">
         <img src={src} alt={alt} className="rounded-xl max-w-full" {...props} />
         {alt && <span className="text-sm text-center block mt-2 opacity-70">{alt}</span>}
-      </div>
+      </span>
     ),
   };
 
