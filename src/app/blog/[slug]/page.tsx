@@ -108,6 +108,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     p: ({ node, children, ...props }: any) => {
       const containsBlock = node?.children?.some(
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (child: any) =>
           child.tagName === 'img' ||
           (child.tagName === 'a' && child.properties?.href?.startsWith('#CTA'))
